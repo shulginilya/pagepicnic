@@ -1,0 +1,415 @@
+@import url("elements.css");
+/* line 4, ../sass/features.scss */
+.features_intro_section .container {
+  padding-top: 53px;
+  padding-bottom: 45px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 9, ../sass/features.scss */
+.features_intro_section .h {
+  font-size: 48px;
+  color: #222222;
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 17, ../sass/features.scss */
+.features_intro_section .init_f_list_wrap {
+  margin-top: 35px;
+}
+/* line 21, ../sass/features.scss */
+.features_intro_section .init_f_list li {
+  display: inline-block;
+  margin-right: 25px;
+}
+/* line 24, ../sass/features.scss */
+.features_intro_section .init_f_list li p {
+  line-height: 23px;
+  font-size: 18px;
+  background: url("../images/apply_green_icon.png") center left no-repeat;
+  padding-left: 34px;
+  text-align: left;
+  font-weight: 200;
+}
+/* line 33, ../sass/features.scss */
+.features_intro_section .init_f_list li:last-child {
+  margin-right: 0px;
+}
+/* line 37, ../sass/features.scss */
+.features_intro_section .full_f_list_wrap {
+  margin-top: 80px;
+}
+/* line 41, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item {
+  margin-bottom: 15px;
+}
+/* line 43, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item .lf {
+  float: left;
+  width: 40%;
+}
+/* line 46, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item .lf img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* line 52, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item .rf {
+  float: left;
+  width: 60%;
+}
+/* line 55, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item .rf p.rf_r {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+/* line 60, ../sass/features.scss */
+.features_intro_section .full_f_list li.ffl_item .rf .rf_h {
+  font-size: 21px;
+  color: #222222;
+  margin-bottom: 17px;
+}
+
+/* line 71, ../sass/features.scss */
+.full_content_section .container {
+  padding-top: 93px;
+  padding-bottom: 98px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 77, ../sass/features.scss */
+.full_content_section .img_ic_holder img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 82, ../sass/features.scss */
+.full_content_section .h {
+  font-size: 36px;
+  color: #222222;
+  margin-top: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 89, ../sass/features.scss */
+.full_content_section .disc {
+  text-align: center;
+  font-size: 21px;
+  display: block;
+  width: 668px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  font-weight: 200;
+}
+/* line 100, ../sass/features.scss */
+.full_content_section .fcs_desc_segment .fsc_seg_block {
+  margin-bottom: 45px;
+}
+/* line 102, ../sass/features.scss */
+.full_content_section .fcs_desc_segment .fsc_seg_block .h {
+  font-size: 21px;
+  color: #222222;
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+/* line 109, ../sass/features.scss */
+.full_content_section .fcs_desc_segment .fsc_seg_block .desc {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+/* line 116, ../sass/features.scss */
+.full_content_section .fcs_desc_segment .fsc_seg_block:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 123, ../sass/features.scss */
+.full_customize_section .container {
+  padding-top: 93px;
+  padding-bottom: 98px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 129, ../sass/features.scss */
+.full_customize_section .img_ic_holder img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 134, ../sass/features.scss */
+.full_customize_section .h {
+  font-size: 36px;
+  color: #222222;
+  margin-top: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 141, ../sass/features.scss */
+.full_customize_section .disc {
+  text-align: center;
+  font-size: 21px;
+  display: block;
+  width: 668px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  font-weight: 200;
+}
+/* line 151, ../sass/features.scss */
+.full_customize_section .f_cust_desc_segment .f_cust_seg_block {
+  margin-bottom: 45px;
+}
+/* line 153, ../sass/features.scss */
+.full_customize_section .f_cust_desc_segment .f_cust_seg_block .h {
+  font-size: 21px;
+  color: #222222;
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+/* line 160, ../sass/features.scss */
+.full_customize_section .f_cust_desc_segment .f_cust_seg_block .desc {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+/* line 167, ../sass/features.scss */
+.full_customize_section .f_cust_desc_segment .f_cust_seg_block:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 174, ../sass/features.scss */
+.full_mobile_section .container {
+  padding-top: 93px;
+  padding-bottom: 98px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 180, ../sass/features.scss */
+.full_mobile_section .img_ic_holder img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 185, ../sass/features.scss */
+.full_mobile_section .h {
+  font-size: 36px;
+  color: #222222;
+  margin-top: 33px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+/* line 193, ../sass/features.scss */
+.full_mobile_section .pic_img_holder img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 198, ../sass/features.scss */
+.full_mobile_section .disc {
+  font-size: 17px;
+  width: 760px;
+  margin: 0 auto;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+
+/* line 208, ../sass/features.scss */
+.full_more_section .container {
+  padding-top: 93px;
+  padding-bottom: 98px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 214, ../sass/features.scss */
+.full_more_section .img_ic_holder img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 219, ../sass/features.scss */
+.full_more_section .h {
+  font-size: 36px;
+  color: #222222;
+  margin-top: 33px;
+  text-align: center;
+}
+/* line 225, ../sass/features.scss */
+.full_more_section .disc {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 25px;
+  margin-bottom: 93px;
+  font-weight: 200;
+}
+/* line 232, ../sass/features.scss */
+.full_more_section .fms_blocks_rsec {
+  margin-bottom: 53px;
+}
+/* line 238, ../sass/features.scss */
+.full_more_section .fms_blocks_rsec .fms_block .fms_h {
+  font-size: 21px;
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 244, ../sass/features.scss */
+.full_more_section .fms_blocks_rsec .fms_block .fms_desc {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+/* line 251, ../sass/features.scss */
+.full_more_section .fms_blocks_rsec:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 257, ../sass/features.scss */
+.full_support_team_section .container {
+  padding-top: 93px;
+  padding-bottom: 98px;
+}
+/* line 261, ../sass/features.scss */
+.full_support_team_section .h {
+  font-size: 36px;
+  color: #222222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 267, ../sass/features.scss */
+.full_support_team_section .disc {
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+/* line 274, ../sass/features.scss */
+.full_support_team_section .pic_img_holder img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 282, ../sass/features.scss */
+.start_trial_section .container {
+  padding-bottom: 102px;
+}
+/* line 285, ../sass/features.scss */
+.start_trial_section .start_trial_form_wrap {
+  margin-top: 43px;
+}
+/* line 287, ../sass/features.scss */
+.start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
+  margin-right: 20px;
+  height: 54px;
+}
+/* line 291, ../sass/features.scss */
+.start_trial_section .start_trial_form_wrap .cnt {
+  margin-top: 43px;
+}
+/* line 293, ../sass/features.scss */
+.start_trial_section .start_trial_form_wrap .cnt button {
+  color: #fff;
+  font-size: 21px;
+  border: solid 2px #48ad42;
+  background-color: #48ad42;
+  border-radius: 52px;
+  padding: 17px 25px;
+}
+/* line 300, ../sass/features.scss */
+.start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../images/white_arrow_r.png");
+  width: 25px;
+  height: 19px;
+  margin-left: 15px;
+}
+/* line 311, ../sass/features.scss */
+.start_trial_section .h {
+  font-size: 36px;
+  color: #222222;
+  text-align: center;
+}
+/* line 316, ../sass/features.scss */
+.start_trial_section .disc {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 24px;
+  font-weight: 200;
+}
+
+@media (max-width: 767px) {
+  /* line 326, ../sass/features.scss */
+  .features_intro_section .h {
+    width: auto;
+  }
+  /* line 329, ../sass/features.scss */
+  .features_intro_section .init_f_list {
+    width: 230px;
+    margin: 0 auto;
+  }
+  /* line 332, ../sass/features.scss */
+  .features_intro_section .init_f_list li {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+  /* line 337, ../sass/features.scss */
+  .features_intro_section .init_f_list li:last-child {
+    margin-bottom: 0px;
+  }
+
+  /* line 343, ../sass/features.scss */
+  .full_mobile_section .disc {
+    width: auto;
+  }
+
+  /* line 348, ../sass/features.scss */
+  .full_content_section .disc {
+    width: auto;
+  }
+
+  /* line 353, ../sass/features.scss */
+  .full_customize_section .disc {
+    width: auto;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 362, ../sass/features.scss */
+  .full_content_section .fcs_desc_segment .fcs_desc_rline {
+    float: none;
+    width: 100%;
+  }
+  /* line 366, ../sass/features.scss */
+  .full_content_section .fcs_desc_segment .fcs_desc_rline:last-child {
+    margin-top: 45px;
+  }
+
+  /* line 373, ../sass/features.scss */
+  .full_customize_section .f_cust_desc_segment .f_cust_desc_rline {
+    float: none;
+    width: 100%;
+  }
+  /* line 377, ../sass/features.scss */
+  .full_customize_section .f_cust_desc_segment .f_cust_desc_rline:first-child {
+    margin-bottom: 45px;
+  }
+
+  /* line 384, ../sass/features.scss */
+  .full_more_section .fms_blocks_rsec .fms_block {
+    float: none;
+    width: 100%;
+    margin-bottom: 53px;
+  }
+  /* line 389, ../sass/features.scss */
+  .full_more_section .fms_blocks_rsec .fms_block:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 400px) {
+  /* line 398, ../sass/features.scss */
+  .features_intro_section .h {
+    font-size: 28px;
+  }
+  /* line 402, ../sass/features.scss */
+  .features_intro_section .full_f_list li.ffl_item {
+    float: none;
+    width: 100%;
+  }
+}
