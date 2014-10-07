@@ -475,7 +475,7 @@
     padding: 14px 15px !important;
   }
 }
-@media all and (max-width: 360px) {
+@media all and (max-width: 400px) {
   /* line 485, ../sass/home.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
     font-size: 12px !important;
@@ -485,51 +485,52 @@
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a:first-child {
     margin-right: 10px;
   }
-
-  /* line 501, ../sass/home.scss */
+}
+@media all and (max-width: 360px) {
+  /* line 504, ../sass/home.scss */
   .choose_templates_section .h, .get_started_section .h, .promotion_section .h, .bus_standout .h, .our_word_section .h, .start_trial_section .h {
     font-size: 24px;
   }
-  /* line 504, ../sass/home.scss */
+  /* line 507, ../sass/home.scss */
   .choose_templates_section .disc, .get_started_section .disc, .promotion_section .disc, .bus_standout .disc, .our_word_section .disc, .start_trial_section .disc {
     font-size: 18px;
   }
 
-  /* line 510, ../sass/home.scss */
+  /* line 513, ../sass/home.scss */
   .choose_templates_section > .container, .bus_standout > .container, .our_word_section > .container, .start_trial_section > .container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  /* line 517, ../sass/home.scss */
+  /* line 520, ../sass/home.scss */
   .get_started_section .get_started_form_wrap {
     margin-top: 35px;
   }
 
-  /* line 522, ../sass/home.scss */
+  /* line 525, ../sass/home.scss */
   .demo_screen_preview_section {
     display: none;
   }
 
-  /* line 527, ../sass/home.scss */
+  /* line 530, ../sass/home.scss */
   .promotion_section .container {
     padding-top: 0px;
   }
 
-  /* line 533, ../sass/home.scss */
+  /* line 536, ../sass/home.scss */
   .our_word_section .our_word_block {
     margin-bottom: 0px;
   }
-  /* line 536, ../sass/home.scss */
+  /* line 539, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .h {
     font-size: 22px;
   }
-  /* line 539, ../sass/home.scss */
+  /* line 542, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .desc {
     font-size: 14px;
   }
 
-  /* line 548, ../sass/home.scss */
+  /* line 551, ../sass/home.scss */
   .choose_templates_section .cnt a, .bus_standout .cnt a, .our_word_section .cnt a {
     font-size: 16px;
   }

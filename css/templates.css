@@ -1,0 +1,189 @@
+@import url("elements.css");
+/* line 5, ../sass/templates.scss */
+.choose_templates_section .container {
+  padding-top: 94px;
+  padding-bottom: 102px;
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 10, ../sass/templates.scss */
+.choose_templates_section .h {
+  font-size: 36px;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 26px;
+}
+/* line 16, ../sass/templates.scss */
+.choose_templates_section .disc {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 200;
+}
+/* line 21, ../sass/templates.scss */
+.choose_templates_section .templates_wrap {
+  margin-top: 66px;
+}
+/* line 23, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline {
+  margin-bottom: 70px;
+}
+/* line 26, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside {
+  position: relative;
+  border: solid 2px #c8d1d8;
+  border-radius: 2px;
+}
+/* line 30, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 38, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt {
+  margin-top: 200px;
+  margin-top: -webkit-calc(50% - 32px);
+  margin-top: -moz-calc(50% - 32px);
+  margin-top: calc(50% - 32px);
+}
+/* line 43, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
+  color: #48ad42;
+  font-size: 18px;
+  border: solid 2px #48ad42;
+  background-color: transparent;
+  border-radius: 52px;
+  padding: 17px 31px;
+}
+/* line 51, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a:first-child {
+  margin-right: 20px;
+}
+/* line 54, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a:hover {
+  background-color: #48ad42;
+  color: #fff;
+}
+/* line 60, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside img {
+  width: 100%;
+  display: block;
+}
+/* line 66, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside:hover .hove_overlay {
+  display: block;
+}
+/* line 72, ../sass/templates.scss */
+.choose_templates_section .templates_wrap .template_rline:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 79, ../sass/templates.scss */
+.start_trial_section .container {
+  padding-top: 99px;
+  padding-bottom: 102px;
+}
+/* line 83, ../sass/templates.scss */
+.start_trial_section .start_trial_form_wrap {
+  margin-top: 43px;
+}
+/* line 85, ../sass/templates.scss */
+.start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
+  margin-right: 20px;
+  height: 54px;
+}
+/* line 89, ../sass/templates.scss */
+.start_trial_section .start_trial_form_wrap .cnt {
+  margin-top: 43px;
+}
+/* line 91, ../sass/templates.scss */
+.start_trial_section .start_trial_form_wrap .cnt button {
+  color: #fff;
+  font-size: 21px;
+  border: solid 2px #48ad42;
+  background-color: #48ad42;
+  border-radius: 52px;
+  padding: 17px 25px;
+}
+/* line 98, ../sass/templates.scss */
+.start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../images/white_arrow_r.png");
+  width: 25px;
+  height: 19px;
+  margin-left: 15px;
+}
+/* line 109, ../sass/templates.scss */
+.start_trial_section .h {
+  font-size: 36px;
+  color: #222222;
+  text-align: center;
+}
+/* line 114, ../sass/templates.scss */
+.start_trial_section .disc {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 24px;
+  font-weight: 200;
+}
+
+@media all and (max-width: 991px) {
+  /* line 130, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
+    font-size: 14px !important;
+    padding: 14px 15px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 147, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold {
+    margin-bottom: 20px;
+  }
+  /* line 152, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
+    font-size: 18px !important;
+    padding: 17px 31px !important;
+  }
+  /* line 160, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 568px) {
+  /* line 176, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
+    font-size: 14px !important;
+    padding: 14px 15px !important;
+  }
+}
+@media all and (max-width: 400px) {
+  /* line 197, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
+    font-size: 12px !important;
+    padding: 8px !important;
+  }
+  /* line 201, ../sass/templates.scss */
+  .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a:first-child {
+    margin-right: 10px;
+  }
+}
+@media all and (max-width: 360px) {
+  /* line 216, ../sass/templates.scss */
+  .choose_templates_section .h, .start_trial_section .h {
+    font-size: 24px;
+  }
+  /* line 219, ../sass/templates.scss */
+  .choose_templates_section .disc, .start_trial_section .disc {
+    font-size: 18px;
+  }
+
+  /* line 225, ../sass/templates.scss */
+  .choose_templates_section > .container, .start_trial_section > .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
