@@ -168,6 +168,7 @@
 				background: url("../images/green_arrow_r.png");
 				width: 25px;
 				height: 19px;
+				margin-left: 5px;
 			}
 		}
 		a:hover {
@@ -229,6 +230,7 @@
 				background: url("../images/green_arrow_r.png");
 				width: 25px;
 				height: 19px;
+				margin-left: 5px;
 			}
 		}
 		a:hover {
@@ -305,6 +307,7 @@
 				background: url("../images/green_arrow_r.png");
 				width: 25px;
 				height: 19px;
+				margin-left: 5px;
 			}
 		}
 		a:hover {
@@ -381,6 +384,11 @@
 		}
 	}
 
+	.our_word_section {
+		.h {
+			margin-bottom: 0px;
+		}
+	}
 	.our_word_block {
 		.h {
 			margin-bottom: 0px;
@@ -488,4 +496,59 @@
 			}
 		}
 	}
+
+	.choose_templates_section, .get_started_section, .promotion_section, .bus_standout, .our_word_section, .start_trial_section {
+		.h {
+			font-size: 24px;
+		}
+		.disc {
+			font-size: 18px;
+		}
+	}
+
+	.choose_templates_section, .bus_standout, .our_word_section, .start_trial_section {
+		> .container {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+	}
+
+	.get_started_section {
+		.get_started_form_wrap {
+			margin-top: 35px;
+		}
+	}
+
+	.demo_screen_preview_section {
+		display: none;
+	}
+
+	.promotion_section {
+		.container {
+			padding-top: 0px;
+		}
+	}
+
+	.our_word_section {
+		.our_word_block {
+			margin-bottom: 0px;
+			.desc_holder {
+				.h {
+					font-size: 22px;
+				}
+				.desc {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+	.choose_templates_section, .bus_standout, .our_word_section { 
+		.cnt {
+			a {
+				font-size: 16px;
+			}
+		}
+	}
+
 }

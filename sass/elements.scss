@@ -412,6 +412,9 @@ body {
 
 @media all and (max-width: 845px) {
 	.header {
+		> .container {
+			padding-top: 0px !important;
+		}
 		.head_nav, .auth_nav {
 			display: none;
 		}
