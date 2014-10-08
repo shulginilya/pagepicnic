@@ -33,23 +33,19 @@
 }
 
 /* line 41, ../sass/all_features.scss */
-.start_trial_section .container {
-  padding-bottom: 102px;
-}
-/* line 44, ../sass/all_features.scss */
 .start_trial_section .start_trial_form_wrap {
   margin-top: 43px;
 }
-/* line 46, ../sass/all_features.scss */
+/* line 43, ../sass/all_features.scss */
 .start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
   margin-right: 20px;
   height: 54px;
 }
-/* line 50, ../sass/all_features.scss */
+/* line 47, ../sass/all_features.scss */
 .start_trial_section .start_trial_form_wrap .cnt {
   margin-top: 43px;
 }
-/* line 52, ../sass/all_features.scss */
+/* line 49, ../sass/all_features.scss */
 .start_trial_section .start_trial_form_wrap .cnt button {
   color: #fff;
   font-size: 21px;
@@ -58,7 +54,7 @@
   border-radius: 52px;
   padding: 17px 25px;
 }
-/* line 59, ../sass/all_features.scss */
+/* line 56, ../sass/all_features.scss */
 .start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -67,13 +63,13 @@
   height: 19px;
   margin-left: 15px;
 }
-/* line 70, ../sass/all_features.scss */
+/* line 67, ../sass/all_features.scss */
 .start_trial_section .h {
   font-size: 36px;
   color: #222222;
   text-align: center;
 }
-/* line 75, ../sass/all_features.scss */
+/* line 72, ../sass/all_features.scss */
 .start_trial_section .disc {
   text-align: center;
   font-size: 21px;
@@ -82,7 +78,7 @@
 }
 
 @media (max-width: 767px) {
-  /* line 85, ../sass/all_features.scss */
+  /* line 82, ../sass/all_features.scss */
   .all_ft_stack > div {
     float: none;
     width: 100%;
