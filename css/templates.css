@@ -93,13 +93,12 @@
 /* line 85, ../sass/templates.scss */
 .start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
   margin-right: 20px;
-  height: 54px;
 }
-/* line 89, ../sass/templates.scss */
+/* line 88, ../sass/templates.scss */
 .start_trial_section .start_trial_form_wrap .cnt {
   margin-top: 43px;
 }
-/* line 91, ../sass/templates.scss */
+/* line 90, ../sass/templates.scss */
 .start_trial_section .start_trial_form_wrap .cnt button {
   color: #fff;
   font-size: 21px;
@@ -108,7 +107,7 @@
   border-radius: 52px;
   padding: 17px 25px;
 }
-/* line 98, ../sass/templates.scss */
+/* line 97, ../sass/templates.scss */
 .start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -117,13 +116,13 @@
   height: 19px;
   margin-left: 15px;
 }
-/* line 109, ../sass/templates.scss */
+/* line 108, ../sass/templates.scss */
 .start_trial_section .h {
   font-size: 36px;
   color: #222222;
   text-align: center;
 }
-/* line 114, ../sass/templates.scss */
+/* line 113, ../sass/templates.scss */
 .start_trial_section .disc {
   text-align: center;
   font-size: 21px;
@@ -132,56 +131,56 @@
 }
 
 @media all and (max-width: 991px) {
-  /* line 130, ../sass/templates.scss */
+  /* line 129, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
     font-size: 14px !important;
     padding: 14px 15px !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 147, ../sass/templates.scss */
+  /* line 146, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold {
     margin-bottom: 20px;
   }
-  /* line 152, ../sass/templates.scss */
+  /* line 151, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
     font-size: 18px !important;
     padding: 17px 31px !important;
   }
-  /* line 160, ../sass/templates.scss */
+  /* line 159, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold:last-child {
     margin-bottom: 0px;
   }
 }
 @media all and (max-width: 568px) {
-  /* line 176, ../sass/templates.scss */
+  /* line 175, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
     font-size: 14px !important;
     padding: 14px 15px !important;
   }
 }
 @media all and (max-width: 400px) {
-  /* line 197, ../sass/templates.scss */
+  /* line 196, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a {
     font-size: 12px !important;
     padding: 8px !important;
   }
-  /* line 201, ../sass/templates.scss */
+  /* line 200, ../sass/templates.scss */
   .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay .cnt a:first-child {
     margin-right: 10px;
   }
 }
 @media all and (max-width: 360px) {
-  /* line 216, ../sass/templates.scss */
+  /* line 215, ../sass/templates.scss */
   .choose_templates_section .h, .start_trial_section .h {
     font-size: 24px;
   }
-  /* line 219, ../sass/templates.scss */
+  /* line 218, ../sass/templates.scss */
   .choose_templates_section .disc, .start_trial_section .disc {
     font-size: 18px;
   }
 
-  /* line 225, ../sass/templates.scss */
+  /* line 224, ../sass/templates.scss */
   .choose_templates_section > .container, .start_trial_section > .container {
     padding-top: 50px;
     padding-bottom: 50px;
