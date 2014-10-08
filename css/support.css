@@ -18,3 +18,101 @@
   font-size: 28px;
   color: #48ad42;
 }
+/* line 20, ../sass/support.scss */
+.support_section .pic_img_holder {
+  margin: 0 auto;
+  margin-top: 54px;
+}
+/* line 24, ../sass/support.scss */
+.support_section .support_inside_menu {
+  margin-top: 50px;
+}
+/* line 26, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block {
+  border: solid 2px #e2e6e9;
+  border-radius: 4px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 32%;
+  margin-right: 2%;
+}
+/* line 34, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block .pic_hold img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 39, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block .h {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* line 45, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block .d {
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: center;
+  display: block;
+  width: 240px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* line 54, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block .arrow_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 12px;
+  margin-left: 5px;
+}
+/* line 62, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block:last-child {
+  margin-right: 0;
+}
+/* line 66, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block_contact .arrow_wrap {
+  background: url("../images/r_arrow_blue_18_12.png");
+}
+/* line 71, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block_contact .arrow_wrap {
+  background: url("../images/r_arrow_blue_18_12.png");
+}
+/* line 76, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block_know .arrow_wrap {
+  background: url("../images/r_arrow_green_18_12.png");
+}
+/* line 81, ../sass/support.scss */
+.support_section .support_inside_menu .sim_block_feedback .arrow_wrap {
+  background: url("../images/r_arrow_purple_18_12.png");
+}
+
+@media all and (max-width: 991px) {
+  /* line 92, ../sass/support.scss */
+  .support_section .support_inside_menu .sim_block .d {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 103, ../sass/support.scss */
+  .support_section .support_inside_menu .sim_block {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  /* line 109, ../sass/support.scss */
+  .support_section .support_inside_menu .sim_block:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 118, ../sass/support.scss */
+  .support_section .pic_img_holder {
+    display: none;
+  }
+  /* line 121, ../sass/support.scss */
+  .support_section .support_search_holder {
+    width: 100%;
+  }
+}

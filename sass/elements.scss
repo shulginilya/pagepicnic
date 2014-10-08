@@ -24,22 +24,17 @@ html, body {
 }
 
 body {
-	// font-family: 'Gotham Rounded SSm A', sans-serif;
 	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
   background: #fff;
   color: #5d6974;
-  // line-height: 1.42857143;
   line-height: 1.3;
-  // position: relative;
-  // overflow-x: hidden;
   overflow-x: hidden;
   overflow-y: auto;
 
 	p, a, button, h1, h2, h3, h4, h5, h6, input, textarea, select, table td, table th, span, li, label, div {
-    // font-family: 'Gotham Rounded SSm A', sans-serif;
     font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', sans-serif;
     font-size: 12px;
     color: #5d6974;
@@ -57,8 +52,6 @@ body {
   }
 
   input[type='text'], input[type='email'], input[type='password'] {
-  	border: solid 2px #c8d1d8;
-  	// height: 42px;
   	height: 54px;
   }
 
@@ -158,6 +151,73 @@ body {
 	#root.m_toggle {
 		left: -260px;
 	}
+
+	.non_margins_row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	// ======== BUTTONS UI (START)
+	.btn-info-custom {
+		color: #2ba8d6;
+		border: solid 2px #2ba8d6;
+		background-color: transparent;
+		border-radius: 30px;
+	}
+	.btn-info-custom:hover, .btn-info-custom:active {
+		background-color: #2ba8d6;
+		color: #fff;
+		border: solid 2px #2ba8d6;
+	}
+	.btn-info-custom.middle_size {
+		font-size: 16px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 23px;
+		padding-right: 23px;
+		border-radius: 30px;
+	}
+
+	.btn-success-custom {
+		color: #48ad42;
+		border: solid 2px #48ad42;
+		background-color: transparent;
+		border-radius: 30px;
+	}
+	.btn-success-custom:hover, .btn-success-custom:active {
+		background-color: #48ad42;
+		color: #fff;
+		border: solid 2px #48ad42;
+	}
+	.btn-success-custom.middle_size {
+		font-size: 16px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 23px;
+		padding-right: 23px;
+		border-radius: 30px;
+	}
+
+	.btn-danger-custom {
+		color: #f24985;
+		border: solid 2px #f24985;
+		background-color: transparent;
+		border-radius: 30px;
+	}
+	.btn-danger-custom:hover, .btn-danger-custom:active {
+		background-color: #f24985;
+		color: #fff;
+		border: solid 2px #f24985;
+	}
+	.btn-danger-custom.middle_size {
+		font-size: 16px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 23px;
+		padding-right: 23px;
+		border-radius: 30px;
+	}
+	// ======== BUTTONS UI (END)
 
 	// ======== HEADER SECTION UI (START) ======== //
 	.header {
