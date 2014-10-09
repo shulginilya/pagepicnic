@@ -1,0 +1,82 @@
+@import url("elements.css");
+/* line 4, ../sass/support_reg.scss */
+.support_reg_inside .team_pic_block {
+  margin-right: 50px;
+  float: left;
+  margin-bottom: 30px;
+}
+/* line 8, ../sass/support_reg.scss */
+.support_reg_inside .team_pic_block img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 13, ../sass/support_reg.scss */
+.support_reg_inside .team_pic_block .tpb_h {
+  font-size: 18px;
+  color: #222222;
+  margin-top: 25px;
+}
+/* line 19, ../sass/support_reg.scss */
+.support_reg_inside .team_pic_block:last-child {
+  margin-right: 0px;
+}
+/* line 23, ../sass/support_reg.scss */
+.support_reg_inside .tickets_block {
+  border: solid 2px #e2e6e9;
+  border-radius: 4px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  margin-bottom: 40px;
+}
+/* line 29, ../sass/support_reg.scss */
+.support_reg_inside .tickets_block .hl1, .support_reg_inside .tickets_block .hl3 {
+  font-size: 18px;
+  color: #222222;
+}
+/* line 33, ../sass/support_reg.scss */
+.support_reg_inside .tickets_block .hl2 {
+  font-size: 96px;
+}
+/* line 37, ../sass/support_reg.scss */
+.support_reg_inside .timing_block {
+  border: solid 2px #e2e6e9;
+  border-radius: 4px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+/* line 42, ../sass/support_reg.scss */
+.support_reg_inside .timing_block .hl {
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 23px;
+}
+/* line 47, ../sass/support_reg.scss */
+.support_reg_inside .timing_block .tl {
+  font-size: 16px;
+  font-weight: 200;
+}
+/* line 51, ../sass/support_reg.scss */
+.support_reg_inside .timing_block p:nth-child(2) {
+  margin-bottom: 41px;
+}
+
+@media all and (max-width: 882px) {
+  /* line 59, ../sass/support_reg.scss */
+  .support_reg_inside .left_r, .support_reg_inside .right_r {
+    width: 100%;
+    float: none;
+  }
+}
+@media all and (max-width: 400px) {
+  /* line 68, ../sass/support_reg.scss */
+  .support_reg_inside > .container {
+    padding-top: 0px !important;
+  }
+  /* line 71, ../sass/support_reg.scss */
+  .support_reg_inside .team_pic_block {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

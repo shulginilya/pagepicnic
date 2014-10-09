@@ -257,21 +257,25 @@ body {
 			-o-transition: height .25s ease-out;
 			.tuh_nav_block {
 				> p {
-					margin-top: 30px;
-					margin-bottom: 20px;
-					font-weight: 600;
-					font-size: 14px;
+					margin-top: 20px;
+					margin-bottom: 15px;
+					font-weight: 400;
+					font-size: 16px;
 					color: #575d64;
 				}
 				ul {
 					margin-bottom: 10px;
 					li {
+						margin-bottom: 5px;
 						a {
 							color: #575d64;
 							line-height: 24px;
-							font-size: 16px;
-							font-weight: 500;
+							font-size: 14px;
+							font-weight: 200;
 						}
+					}
+					li:last-child {
+						margin-bottom: 0px;
 					}
 				}
 			}
@@ -296,7 +300,7 @@ body {
 			}
 		}
 		.top_under_header.act {
-			height: 210px;
+			height: 245px;
 		}
 
 		.logo {
@@ -319,7 +323,7 @@ body {
 		}
 		.head_nav {
 			margin-left: 45px;
-			margin-top: 33px;
+			margin-top: 31px;
 			ul {
 				li {
 					float: left;
@@ -492,6 +496,39 @@ body {
 	// ======== FOOTER SECTION UI (END) ======== //
 }
 
+@media all and (max-width: 1064px) {
+	.header {
+		.head_nav {
+			ul {
+				li {
+					a {
+						font-size: 14px !important;
+					}
+				}
+			}
+		}
+		.auth_nav {
+			ul {
+				li {
+					a {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// @media (min-width: 992px) {
+// 	.container {
+// 		width: 100%;
+// 		> .row {
+// 			margin-left: 0px;
+// 			margin-right: 0px;
+// 		}
+// 	}
+// }
+
 @media all and (max-width: 991px) {
 	.container {
 		width: 100%;
@@ -507,17 +544,29 @@ body {
 			margin-left: 13px !important;
 			ul {
 				li {
-					margin-left: 18px !important;
+					margin-left: 10px !important;
+					a {
+						font-size: 14px !important;
+					}
 				}
 				li:first-child {
 					margin-left: 0px;
 				}
 			}
 		}
+		.auth_nav {
+			ul {
+				li {
+					a {
+						font-size: 14px;
+					}
+				}
+			}
+		}
 	}
 }
 
-@media all and (max-width: 845px) {
+@media all and (max-width: 850px) {
 	.header {
 		> .container {
 			padding-top: 0px !important;

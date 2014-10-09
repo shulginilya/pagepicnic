@@ -1,0 +1,77 @@
+@import url('elements.css');
+
+.support_reg_inside {
+	.team_pic_block {
+		margin-right: 50px;
+		float: left;
+		margin-bottom: 30px;
+		img {
+			border-radius: 50%;
+			display: block;
+			margin: 0 auto;
+		}
+		.tpb_h {
+			font-size: 18px;
+			color: #222222;
+			margin-top: 25px;
+		}
+	}
+	.team_pic_block:last-child {
+		margin-right: 0px;
+	}
+
+	.tickets_block {
+		border: solid 2px #e2e6e9;
+		border-radius: 4px;
+		padding-top: 42px;
+		padding-bottom: 42px;
+		margin-bottom: 40px;
+		.hl1, .hl3 {
+			font-size: 18px;
+			color: #222222;
+		}
+		.hl2 {
+			font-size: 96px;
+		}
+	}
+	.timing_block {
+		border: solid 2px #e2e6e9;
+		border-radius: 4px;
+		padding-top: 42px;
+		padding-bottom: 42px;
+		.hl {
+			font-size: 18px;
+			color: #222222;
+			margin-bottom: 23px;
+		}
+		.tl {
+			font-size: 16px;
+			font-weight: 200;
+		}
+		p:nth-child(2) {
+			margin-bottom: 41px;
+		}
+	}
+}
+
+@media all and (max-width: 882px) {
+	.support_reg_inside {
+		.left_r, .right_r {
+			width: 100%;
+			float: none;
+		}
+	}
+}
+
+@media all and (max-width: 400px) { 
+	.support_reg_inside {
+		> .container {
+			padding-top: 0px !important;
+		}
+		.team_pic_block {
+			float: none;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+	}
+}
