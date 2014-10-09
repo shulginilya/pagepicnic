@@ -63,22 +63,9 @@
   height: 19px;
   margin-left: 15px;
 }
-/* line 67, ../sass/all_features.scss */
-.start_trial_section .h {
-  font-size: 36px;
-  color: #222222;
-  text-align: center;
-}
-/* line 72, ../sass/all_features.scss */
-.start_trial_section .disc {
-  text-align: center;
-  font-size: 21px;
-  margin-top: 24px;
-  font-weight: 200;
-}
 
 @media (max-width: 767px) {
-  /* line 82, ../sass/all_features.scss */
+  /* line 71, ../sass/all_features.scss */
   .all_ft_stack > div {
     float: none;
     width: 100%;

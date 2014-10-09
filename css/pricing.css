@@ -51,69 +51,51 @@
   border-bottom: solid 1px #c8d1d8;
 }
 /* line 40, ../sass/pricing.scss */
-.pricing_section .h {
-  font-size: 48px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 26px;
-}
-/* line 46, ../sass/pricing.scss */
-.pricing_section .disc {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 200;
-}
-/* line 50, ../sass/pricing.scss */
-.pricing_section .disc span {
-  font-size: 24px;
-  font-weight: 200;
-}
-/* line 55, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap {
   width: 705px;
   margin: 0 auto;
   margin-top: 80px;
 }
-/* line 60, ../sass/pricing.scss */
+/* line 45, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs {
   border-bottom: solid 2px #dfe4e9;
 }
-/* line 62, ../sass/pricing.scss */
+/* line 47, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs li {
   position: relative;
   margin-bottom: -2px;
 }
-/* line 65, ../sass/pricing.scss */
+/* line 50, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs li a {
   font-size: 16px;
   padding: 20px 30px;
 }
-/* line 71, ../sass/pricing.scss */
+/* line 56, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs li.active a {
   color: #48ad42;
 }
-/* line 76, ../sass/pricing.scss */
+/* line 61, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs li:not(.active) a:hover {
   color: #48ad42;
   background-color: transparent;
   border-color: transparent;
 }
-/* line 82, ../sass/pricing.scss */
+/* line 67, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs li:first-child {
   margin-left: 170px;
 }
-/* line 86, ../sass/pricing.scss */
+/* line 71, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .nav-tabs > li.active > a, .pricing_section .pricing_tabs_wrap .nav-tabs > li.active > a:hover, .pricing_section .pricing_tabs_wrap .nav-tabs > li.active > a:focus {
   border: solid 2px #dfe4e9;
   border-bottom-color: transparent;
 }
-/* line 92, ../sass/pricing.scss */
+/* line 77, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box {
   margin-top: 60px;
   border-radius: 4px;
   border: solid 2px #e2e6e9;
 }
-/* line 96, ../sass/pricing.scss */
+/* line 81, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .headline {
   font-size: 26px;
   color: #222222;
@@ -122,84 +104,84 @@
   padding-top: 34px;
   padding-bottom: 34px;
 }
-/* line 104, ../sass/pricing.scss */
+/* line 89, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line {
   height: 90px;
   background: #f6f8f8;
   padding-top: 12px;
 }
-/* line 108, ../sass/pricing.scss */
+/* line 93, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line .pcost_line {
   margin-bottom: 8px;
   text-align: center;
 }
-/* line 111, ../sass/pricing.scss */
+/* line 96, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line .pcost_line span {
   color: #48ad42;
 }
-/* line 114, ../sass/pricing.scss */
+/* line 99, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line .pcost_line .one {
   font-size: 32px;
 }
-/* line 117, ../sass/pricing.scss */
+/* line 102, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line .pcost_line .two {
   font-size: 24px;
 }
-/* line 121, ../sass/pricing.scss */
+/* line 106, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .pay_line .dcost_line {
   font-size: 14px;
   color: #48ad42;
   text-align: center;
 }
-/* line 128, ../sass/pricing.scss */
+/* line 113, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .reg_block p {
   text-align: center;
   color: #030303;
   font-size: 16px;
   margin-top: 35px;
 }
-/* line 133, ../sass/pricing.scss */
+/* line 118, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .reg_block p span {
   color: #030303;
   font-size: 16px;
 }
-/* line 137, ../sass/pricing.scss */
+/* line 122, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .reg_block p .info_icon {
   vertical-align: middle;
   display: inline;
   margin-left: 10px;
   cursor: pointer;
 }
-/* line 144, ../sass/pricing.scss */
+/* line 129, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box .reg_block p:last-child {
   margin-bottom: 35px;
 }
-/* line 149, ../sass/pricing.scss */
+/* line 134, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box.active {
   border: solid 2px #48ad42;
 }
-/* line 151, ../sass/pricing.scss */
+/* line 136, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box.active .pay_line {
   background: #48ad42;
 }
-/* line 154, ../sass/pricing.scss */
+/* line 139, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box.active .pay_line .pcost_line span {
   color: #fff;
 }
-/* line 158, ../sass/pricing.scss */
+/* line 143, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box.active .pay_line .dcost_line {
   color: #fff;
 }
-/* line 162, ../sass/pricing.scss */
+/* line 147, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .price_box_wrap .price_box.active .foot {
   height: 56px;
   background: #48ad42;
 }
-/* line 169, ../sass/pricing.scss */
+/* line 154, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .cnt {
   margin-top: 68px;
 }
-/* line 171, ../sass/pricing.scss */
+/* line 156, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .cnt a {
   color: #fff;
   font-size: 21px;
@@ -208,7 +190,7 @@
   border-radius: 52px;
   padding: 17px 25px;
 }
-/* line 178, ../sass/pricing.scss */
+/* line 163, ../sass/pricing.scss */
 .pricing_section .pricing_tabs_wrap .cnt a .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -218,24 +200,20 @@
   margin-left: 15px;
 }
 
-/* line 193, ../sass/pricing.scss */
+/* line 178, ../sass/pricing.scss */
 .bus_standout .container {
   border-bottom: solid 1px #c8d1d8;
 }
-/* line 196, ../sass/pricing.scss */
-.bus_standout .h {
-  font-size: 36px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 26px;
-  margin-bottom: 69px;
+/* line 181, ../sass/pricing.scss */
+.bus_standout .standout_block {
+  margin-top: 40px;
 }
-/* line 205, ../sass/pricing.scss */
+/* line 184, ../sass/pricing.scss */
 .bus_standout .standout_block .pic_holder img {
   display: block;
   margin: 0 auto;
 }
-/* line 210, ../sass/pricing.scss */
+/* line 189, ../sass/pricing.scss */
 .bus_standout .standout_block .head {
   font-size: 21px;
   color: #222222;
@@ -243,18 +221,18 @@
   margin-bottom: 20px;
   margin-top: 43px;
 }
-/* line 217, ../sass/pricing.scss */
+/* line 196, ../sass/pricing.scss */
 .bus_standout .standout_block .desc {
   text-align: center;
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 200;
 }
-/* line 224, ../sass/pricing.scss */
+/* line 203, ../sass/pricing.scss */
 .bus_standout .cnt {
   margin-top: 60px;
 }
-/* line 226, ../sass/pricing.scss */
+/* line 205, ../sass/pricing.scss */
 .bus_standout .cnt a {
   color: #48ad42;
   font-size: 21px;
@@ -263,7 +241,7 @@
   border-radius: 34px;
   padding: 17px 25px;
 }
-/* line 233, ../sass/pricing.scss */
+/* line 212, ../sass/pricing.scss */
 .bus_standout .cnt a .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -271,74 +249,56 @@
   width: 25px;
   height: 19px;
 }
-/* line 241, ../sass/pricing.scss */
+/* line 220, ../sass/pricing.scss */
 .bus_standout .cnt a:hover {
   background-color: #48ad42;
   color: #fff;
 }
-/* line 244, ../sass/pricing.scss */
+/* line 223, ../sass/pricing.scss */
 .bus_standout .cnt a:hover .arrow_wrap {
   background: url("../images/white_arrow_r.png");
 }
 
-/* line 252, ../sass/pricing.scss */
+/* line 231, ../sass/pricing.scss */
 .faq_section .container {
   border-bottom: solid 1px #c8d1d8;
 }
-/* line 255, ../sass/pricing.scss */
-.faq_section .h {
-  font-size: 36px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 26px;
-}
-/* line 261, ../sass/pricing.scss */
-.faq_section .disc {
-  text-align: center;
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 70px;
-}
-/* line 266, ../sass/pricing.scss */
-.faq_section .disc span {
-  font-size: 21px;
-  font-weight: 200;
-}
-/* line 271, ../sass/pricing.scss */
+/* line 234, ../sass/pricing.scss */
 .faq_section .faq_blocks_rsec {
+  margin-top: 70px;
   margin-bottom: 53px;
 }
-/* line 274, ../sass/pricing.scss */
+/* line 238, ../sass/pricing.scss */
 .faq_section .faq_blocks_rsec .faq_block .faq_h {
   font-size: 21px;
   color: #222222;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 280, ../sass/pricing.scss */
+/* line 244, ../sass/pricing.scss */
 .faq_section .faq_blocks_rsec .faq_block .faq_desc {
   font-size: 16px;
   line-height: 1.6em;
   font-weight: 200;
 }
-/* line 287, ../sass/pricing.scss */
+/* line 251, ../sass/pricing.scss */
 .faq_section .faq_blocks_rsec:last-child {
   margin-bottom: 0px;
 }
 
-/* line 294, ../sass/pricing.scss */
+/* line 258, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap {
   margin-top: 43px;
 }
-/* line 296, ../sass/pricing.scss */
+/* line 260, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
   margin-right: 20px;
 }
-/* line 299, ../sass/pricing.scss */
+/* line 263, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt {
   margin-top: 43px;
 }
-/* line 301, ../sass/pricing.scss */
+/* line 265, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt button {
   color: #fff;
   font-size: 21px;
@@ -347,7 +307,7 @@
   border-radius: 52px;
   padding: 17px 25px;
 }
-/* line 308, ../sass/pricing.scss */
+/* line 272, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -356,90 +316,77 @@
   height: 19px;
   margin-left: 15px;
 }
-/* line 319, ../sass/pricing.scss */
-.start_trial_section .h {
-  font-size: 36px;
-  color: #222222;
-  text-align: center;
-}
-/* line 324, ../sass/pricing.scss */
-.start_trial_section .disc {
-  text-align: center;
-  font-size: 21px;
-  margin-top: 24px;
-  font-weight: 200;
-}
 
 @media (max-width: 767px) {
-  /* line 334, ../sass/pricing.scss */
+  /* line 287, ../sass/pricing.scss */
   .bus_standout .standout_block {
     margin-bottom: 20px;
   }
-  /* line 337, ../sass/pricing.scss */
+  /* line 290, ../sass/pricing.scss */
   .bus_standout .standout_block:last-child {
     margin-bottom: 0px;
   }
 
-  /* line 342, ../sass/pricing.scss */
+  /* line 295, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap {
     height: auto;
     width: 100%;
   }
-  /* line 346, ../sass/pricing.scss */
+  /* line 299, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li:first-child {
     margin-left: 0px;
   }
 }
 @media all and (max-width: 640px) {
-  /* line 357, ../sass/pricing.scss */
+  /* line 310, ../sass/pricing.scss */
   .faq_section .faq_blocks_rsec .faq_block {
     float: none;
     width: 100%;
     margin-bottom: 53px;
   }
-  /* line 362, ../sass/pricing.scss */
+  /* line 315, ../sass/pricing.scss */
   .faq_section .faq_blocks_rsec .faq_block:last-child {
     margin-bottom: 0px;
   }
 }
 @media all and (max-width: 400px) {
-  /* line 371, ../sass/pricing.scss */
+  /* line 324, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap {
     height: auto;
     width: 100%;
   }
-  /* line 374, ../sass/pricing.scss */
+  /* line 327, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav {
     padding-left: 0px !important;
     width: 100%;
     border-bottom: none !important;
   }
-  /* line 378, ../sass/pricing.scss */
+  /* line 331, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li {
     float: none;
     padding-left: 2%;
     padding-right: 2%;
   }
-  /* line 382, ../sass/pricing.scss */
+  /* line 335, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li a {
     text-align: center;
     border-radius: 0px;
   }
-  /* line 388, ../sass/pricing.scss */
+  /* line 341, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li.active a, .pricing_section .pricing_tabs_wrap .nav li.active a:hover, .pricing_section .pricing_tabs_wrap .nav li.active a:focus {
     border-bottom-color: #dddddd;
   }
-  /* line 392, ../sass/pricing.scss */
+  /* line 345, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li:first-child {
     margin-left: 0px;
   }
-  /* line 397, ../sass/pricing.scss */
+  /* line 350, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .tab-content .price_box_wrap {
     float: none;
     width: 100%;
     margin-bottom: 15px;
   }
-  /* line 402, ../sass/pricing.scss */
+  /* line 355, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .tab-content .price_box_wrap:last-child {
     margin-bottom: 0px;
   }

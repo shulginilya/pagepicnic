@@ -37,21 +37,6 @@
 	.container {
 		border-bottom: solid 1px #c8d1d8;
 	}
-	.h {
-		font-size: 48px;
-		color: #222222;
-		text-align: center;
-		margin-bottom: 26px;
-	}
-	.disc {
-		text-align: center;
-		font-size: 24px;
-		font-weight: 200;
-		span {
-			font-size: 24px;
-			font-weight: 200;
-		}
-	}
 	.pricing_tabs_wrap {
 		width: 705px;
 		margin: 0 auto;
@@ -193,14 +178,8 @@
 	.container {
 		border-bottom: solid 1px #c8d1d8;
 	}
-	.h {
-		font-size: 36px;
-		color: #222222;
-		text-align: center;
-		margin-bottom: 26px;
-		margin-bottom: 69px;
-	}
 	.standout_block {
+		margin-top: 40px;
 		.pic_holder {
 			img {
 				display: block;
@@ -252,23 +231,8 @@
 	.container {
 		border-bottom: solid 1px #c8d1d8;
 	}
-	.h {
-		font-size: 36px;
-		color: #222222;
-		text-align: center;
-		margin-bottom: 26px;
-	}
-	.disc {
-		text-align: center;
-		font-size: 21px;
-		font-weight: 200;
-		margin-bottom: 70px;
-		span {
-			font-size: 21px;
-			font-weight: 200;
-		}
-	}
 	.faq_blocks_rsec {
+		margin-top: 70px;
 		margin-bottom: 53px;
 		.faq_block {
 			.faq_h {
@@ -315,17 +279,6 @@
 				}
 			}
 		}
-	}
-	.h {
-		font-size: 36px;
-		color: #222222;
-		text-align: center;
-	}
-	.disc {
-		text-align: center;
-		font-size: 21px;
-		margin-top: 24px;
-		font-weight: 200;
 	}
 }
 

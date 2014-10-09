@@ -1,0 +1,87 @@
+@import url('elements.css');
+
+.company_info_block {
+	.cib_img_hold {
+		img {
+			display: block;
+		}
+	}
+	.cib_nav_hold {
+		background: #48ad42;
+		padding-top: 25px;
+		ul {
+			display: inline-block;
+		}
+		.col-custom-3 {
+			float: left;
+			margin-right: 25px;
+			margin-bottom: 25px;
+			p {
+				color: #fff;
+			}
+			.cs_h {
+				font-size: 16px;
+				margin-bottom: 12px;
+			}
+			.cs_d {
+				font-size: 14px;
+				font-weight: 200;
+				line-height: 1.6em;
+			}
+		}
+		.col-custom-3:last-child {
+			margin-right: 0px;
+		}
+	}
+}
+
+.contact_map_block {
+	.contact_us_form {
+		button {
+			span {
+				font-size: 16px;
+				color: #fff;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.contact_map_block {
+		> .container {
+			> .row {
+				> div {
+					float: none;
+					width: 100%;
+				}
+				> div:last-child {
+					margin-top: 20px;
+					.map_hold {
+						float: none !important;
+						margin: 0 auto;
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 640px) { 
+	.company_info_block {
+		.cib_img_hold {
+			display: none;
+		}
+		.cib_nav_hold {
+			ul {
+				li {
+					float: none;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
