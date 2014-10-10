@@ -174,58 +174,58 @@
 	}
 }
 
-.bus_standout {
-	.container {
-		border-bottom: solid 1px #c8d1d8;
-	}
-	.standout_block {
-		margin-top: 40px;
-		.pic_holder {
-			img {
-				display: block;
-				margin: 0 auto;
-			}
-		}
-		.head {
-			font-size: 21px;
-			color: #222222;
-			text-align: center;
-			margin-bottom: 20px;
-			margin-top: 43px;
-		}
-		.desc {
-			text-align: center;
-			font-size: 16px;
-			line-height: 1.6em;
-			font-weight: 200;
-		}
-	}
-	.cnt {
-		margin-top: 60px;
-		a {
-			color: #48ad42;
-			font-size: 21px;
-			border: solid 2px #48ad42;
-			background-color: transparent;
-			border-radius: 34px;
-			padding: 17px 25px;
-			.arrow_wrap {
-				display: inline-block;
-				vertical-align: middle;
-				background: url("../images/green_arrow_r.png");
-				width: 25px;
-				height: 19px;
-			}
-		}
-		a:hover {
-			background-color: #48ad42;
-			color: #fff;
-			.arrow_wrap {
-				background: url("../images/white_arrow_r.png");
-			}
-		}
-	}
-}
+// .bus_standout {
+// 	.container {
+// 		border-bottom: solid 1px #c8d1d8;
+// 	}
+// 	.standout_block {
+// 		margin-top: 40px;
+// 		.pic_holder {
+// 			img {
+// 				display: block;
+// 				margin: 0 auto;
+// 			}
+// 		}
+// 		.head {
+// 			font-size: 21px;
+// 			color: #222222;
+// 			text-align: center;
+// 			margin-bottom: 20px;
+// 			margin-top: 43px;
+// 		}
+// 		.desc {
+// 			text-align: center;
+// 			font-size: 16px;
+// 			line-height: 1.6em;
+// 			font-weight: 200;
+// 		}
+// 	}
+// 	.cnt {
+// 		margin-top: 60px;
+// 		a {
+// 			color: #48ad42;
+// 			font-size: 21px;
+// 			border: solid 2px #48ad42;
+// 			background-color: transparent;
+// 			border-radius: 34px;
+// 			padding: 17px 25px;
+// 			.arrow_wrap {
+// 				display: inline-block;
+// 				vertical-align: middle;
+// 				background: url("../images/green_arrow_r.png");
+// 				width: 25px;
+// 				height: 19px;
+// 			}
+// 		}
+// 		a:hover {
+// 			background-color: #48ad42;
+// 			color: #fff;
+// 			.arrow_wrap {
+// 				background: url("../images/white_arrow_r.png");
+// 			}
+// 		}
+// 	}
+// }
 
 .faq_section {
 	.container {
@@ -283,14 +283,14 @@
 }
 
 @media (max-width: 767px) {
-	.bus_standout {
-		.standout_block {
-			margin-bottom: 20px;
-		}
-		.standout_block:last-child {
-			margin-bottom: 0px;
-		}
-	}
+	// .bus_standout {
+	// 	.standout_block {
+	// 		margin-bottom: 20px;
+	// 	}
+	// 	.standout_block:last-child {
+	// 		margin-bottom: 0px;
+	// 	}
+	// }
 	.pricing_section  {
 		.pricing_tabs_wrap {
 			height: auto;

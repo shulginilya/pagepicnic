@@ -200,65 +200,6 @@
   margin-left: 15px;
 }
 
-/* line 178, ../sass/pricing.scss */
-.bus_standout .container {
-  border-bottom: solid 1px #c8d1d8;
-}
-/* line 181, ../sass/pricing.scss */
-.bus_standout .standout_block {
-  margin-top: 40px;
-}
-/* line 184, ../sass/pricing.scss */
-.bus_standout .standout_block .pic_holder img {
-  display: block;
-  margin: 0 auto;
-}
-/* line 189, ../sass/pricing.scss */
-.bus_standout .standout_block .head {
-  font-size: 21px;
-  color: #222222;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 43px;
-}
-/* line 196, ../sass/pricing.scss */
-.bus_standout .standout_block .desc {
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.6em;
-  font-weight: 200;
-}
-/* line 203, ../sass/pricing.scss */
-.bus_standout .cnt {
-  margin-top: 60px;
-}
-/* line 205, ../sass/pricing.scss */
-.bus_standout .cnt a {
-  color: #48ad42;
-  font-size: 21px;
-  border: solid 2px #48ad42;
-  background-color: transparent;
-  border-radius: 34px;
-  padding: 17px 25px;
-}
-/* line 212, ../sass/pricing.scss */
-.bus_standout .cnt a .arrow_wrap {
-  display: inline-block;
-  vertical-align: middle;
-  background: url("../images/green_arrow_r.png");
-  width: 25px;
-  height: 19px;
-}
-/* line 220, ../sass/pricing.scss */
-.bus_standout .cnt a:hover {
-  background-color: #48ad42;
-  color: #fff;
-}
-/* line 223, ../sass/pricing.scss */
-.bus_standout .cnt a:hover .arrow_wrap {
-  background: url("../images/white_arrow_r.png");
-}
-
 /* line 231, ../sass/pricing.scss */
 .faq_section .container {
   border-bottom: solid 1px #c8d1d8;
@@ -318,15 +259,6 @@
 }
 
 @media (max-width: 767px) {
-  /* line 287, ../sass/pricing.scss */
-  .bus_standout .standout_block {
-    margin-bottom: 20px;
-  }
-  /* line 290, ../sass/pricing.scss */
-  .bus_standout .standout_block:last-child {
-    margin-bottom: 0px;
-  }
-
   /* line 295, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap {
     height: auto;

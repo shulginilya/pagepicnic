@@ -1,0 +1,211 @@
+@import url("elements.css");
+/* line 4, ../sass/aboutus.scss */
+.regular_content_block .h {
+  line-height: 2;
+}
+
+/* line 11, ../sass/aboutus.scss */
+.aboutus_headline_block .h img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 20, ../sass/aboutus.scss */
+.aboutus_headnav_block .ahb_nav_hold ul {
+  display: inline-block;
+  margin-bottom: -3px;
+}
+/* line 23, ../sass/aboutus.scss */
+.aboutus_headnav_block .ahb_nav_hold ul li {
+  float: left;
+  margin-right: 48px;
+}
+/* line 26, ../sass/aboutus.scss */
+.aboutus_headnav_block .ahb_nav_hold ul li a {
+  font-size: 16px;
+  height: 45px;
+  display: block;
+  padding-bottom: 23px;
+}
+/* line 32, ../sass/aboutus.scss */
+.aboutus_headnav_block .ahb_nav_hold ul li a:hover, .aboutus_headnav_block .ahb_nav_hold ul li a.active {
+  color: #48ad42;
+  border-bottom: solid 2px #48ad42;
+}
+/* line 37, ../sass/aboutus.scss */
+.aboutus_headnav_block .ahb_nav_hold ul li:last-child {
+  margin-right: 0px;
+}
+/* line 43, ../sass/aboutus.scss */
+.aboutus_headnav_block .aboutus_headnav_img_hold img {
+  display: block;
+}
+
+/* line 50, ../sass/aboutus.scss */
+.about_us_content_line .basic_txt {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+/* line 55, ../sass/aboutus.scss */
+.about_us_content_line .auc_headline {
+  font-size: 32px;
+  color: #222222;
+}
+/* line 60, ../sass/aboutus.scss */
+.about_us_content_line .auc_reg_txt_block p {
+  margin-top: 40px;
+}
+/* line 64, ../sass/aboutus.scss */
+.about_us_content_line .auc_txt_block_wrap.rect_middle {
+  width: 780px;
+  margin: 0 auto;
+}
+/* line 68, ../sass/aboutus.scss */
+.about_us_content_line .basic_pic_holder {
+  margin-top: 80px;
+}
+/* line 70, ../sass/aboutus.scss */
+.about_us_content_line .basic_pic_holder img {
+  display: block;
+  width: 100%;
+}
+/* line 75, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block {
+  height: 1141px;
+  background-image: url("../images/aboutus_values_back.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+}
+/* line 83, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block .abtb_inside {
+  width: 470px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-right: 50px;
+}
+/* line 88, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block .abtb_inside .bl_hl {
+  color: #6bc0c0;
+  font-size: 36px;
+}
+/* line 92, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block .abtb_inside .abtb_sub_block {
+  margin-top: 40px;
+}
+/* line 94, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block .abtb_inside .abtb_sub_block .abtb_sb_h {
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 15px;
+}
+/* line 99, ../sass/aboutus.scss */
+.about_us_content_line .auc_bc_txt_block .abtb_inside .abtb_sub_block .abtb_sb_r {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+/* line 108, ../sass/aboutus.scss */
+.about_us_content_line.p_top {
+  padding-top: 80px;
+}
+
+/* line 111, ../sass/aboutus.scss */
+.about_us_content_line.p_bottom {
+  padding-bottom: 80px;
+}
+
+/* line 116, ../sass/aboutus.scss */
+.start_trial_section .start_trial_form_wrap {
+  margin-top: 43px;
+}
+/* line 118, ../sass/aboutus.scss */
+.start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
+  margin-right: 20px;
+}
+/* line 121, ../sass/aboutus.scss */
+.start_trial_section .start_trial_form_wrap .cnt {
+  margin-top: 43px;
+}
+/* line 123, ../sass/aboutus.scss */
+.start_trial_section .start_trial_form_wrap .cnt button {
+  color: #fff;
+  font-size: 21px;
+  border: solid 2px #48ad42;
+  background-color: #48ad42;
+  border-radius: 52px;
+  padding: 17px 25px;
+}
+/* line 130, ../sass/aboutus.scss */
+.start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../images/white_arrow_r.png");
+  width: 25px;
+  height: 19px;
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 147, ../sass/aboutus.scss */
+  .aboutus_headnav_block .ahb_nav_hold ul li {
+    margin-right: 20px;
+  }
+  /* line 150, ../sass/aboutus.scss */
+  .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
+    margin-right: 0px;
+  }
+
+  /* line 158, ../sass/aboutus.scss */
+  .about_us_content_line .auc_txt_block_wrap.rect_middle {
+    width: 100%;
+  }
+}
+@media all and (max-width: 640px) {
+  /* line 166, ../sass/aboutus.scss */
+  .regular_content_block .container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  /* line 172, ../sass/aboutus.scss */
+  .aboutus_headnav_block .aboutus_headnav_img_hold {
+    display: none;
+  }
+
+  /* line 179, ../sass/aboutus.scss */
+  .aboutus_headnav_block .ahb_nav_hold ul li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  /* line 185, ../sass/aboutus.scss */
+  .aboutus_headnav_block .ahb_nav_hold ul li a:hover {
+    border-bottom: none;
+  }
+  /* line 189, ../sass/aboutus.scss */
+  .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 197, ../sass/aboutus.scss */
+  .about_us_content_line .auc_bc_txt_block {
+    background-image: none;
+    height: auto;
+  }
+  /* line 200, ../sass/aboutus.scss */
+  .about_us_content_line .auc_bc_txt_block .abtb_inside {
+    float: none !important;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+}
