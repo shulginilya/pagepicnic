@@ -21,12 +21,34 @@ $(document).ready(function() {
 		}
 	});
 
+	// $(".mob_nav_knob > a").bind("click", function(e) {
+	// 	$('.header').removeClass('fixed');
+	// 	if($("#root").hasClass('m_toggle')) {
+	// 		$("#root, .mobile_sidebar_menu, .header, body").removeClass('m_toggle');
+	// 	} else {
+	// 		$("#root, .mobile_sidebar_menu, .header, body").addClass('m_toggle');
+	// 	}
+	// 	animated_scroll_top();
+	// });
+
 	$(".mob_nav_knob > a").bind("click", function(e) {
 		$('.header').removeClass('fixed');
 		if($("#root").hasClass('m_toggle')) {
-			$("#root, .mobile_sidebar_menu").removeClass('m_toggle');
+			// $("#root").animate({
+	  //      left: '0px'
+	  //   }, { duration: 200, queue: false });
+	  //   $(".header").animate({
+	  //      left: '0px'
+	  //   }, { duration: 200, queue: false });
+			$("#root, .mobile_sidebar_menu, .header, body").removeClass('m_toggle');
 		} else {
-			$("#root, .mobile_sidebar_menu").addClass('m_toggle');
+			// $("#root").animate({
+	  //      left: '-260px'
+	  //   }, { queue: false });
+	  //   $(".header").animate({
+	  //      left: '-260px'
+	  //   }, { queue: false });
+			$("#root, .mobile_sidebar_menu, .header, body").addClass('m_toggle');
 		}
 		animated_scroll_top();
 	});
