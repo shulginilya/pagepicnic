@@ -260,6 +260,45 @@
 	}
 }
 
+.all_features_section {
+	> .container {
+		border-bottom: solid 1px #c8d1d8;
+	}
+	.cnt_left {
+		a {
+			font-size: 16px;
+			color: #48ad42;
+			.arrow_wrap {
+				display: inline-block;
+				vertical-align: middle;
+				background: url("../images/green_arrow_r_16_16.png");
+				width: 21px;
+				height: 16px;
+				margin-right: 10px;
+			}
+			span {
+				font-size: 16px;
+				color: #48ad42;
+			}
+		}
+	}
+	.ft_line_holder {
+		.ft_line {
+			padding-top: 25px;
+			padding-bottom: 25px;
+			p {
+				font-size: 16px;
+			}
+		}
+		.ft_line:nth-child(odd) {
+
+		}
+		.ft_line:nth-child(even) {
+			background: #f6f8f8;
+		}
+	}
+}
+
 
 .start_trial_section {
 	.start_trial_form_wrap {
@@ -290,14 +329,6 @@
 }
 
 @media (max-width: 767px) {
-	// .bus_standout {
-	// 	.standout_block {
-	// 		margin-bottom: 20px;
-	// 	}
-	// 	.standout_block:last-child {
-	// 		margin-bottom: 0px;
-	// 	}
-	// }
 	.pricing_section  {
 		.pricing_tabs_wrap {
 			height: auto;
@@ -307,6 +338,13 @@
 					margin-left: 0px;
 				}
 			}
+		}
+	}
+
+	.all_ft_stack {
+		> div {
+			float: none;
+			width: 100%;
 		}
 	}
 }

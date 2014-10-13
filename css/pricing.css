@@ -236,19 +236,56 @@
   margin-bottom: 0px;
 }
 
-/* line 265, ../sass/pricing.scss */
+/* line 264, ../sass/pricing.scss */
+.all_features_section > .container {
+  border-bottom: solid 1px #c8d1d8;
+}
+/* line 268, ../sass/pricing.scss */
+.all_features_section .cnt_left a {
+  font-size: 16px;
+  color: #48ad42;
+}
+/* line 271, ../sass/pricing.scss */
+.all_features_section .cnt_left a .arrow_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  background: url("../images/green_arrow_r_16_16.png");
+  width: 21px;
+  height: 16px;
+  margin-right: 10px;
+}
+/* line 279, ../sass/pricing.scss */
+.all_features_section .cnt_left a span {
+  font-size: 16px;
+  color: #48ad42;
+}
+/* line 286, ../sass/pricing.scss */
+.all_features_section .ft_line_holder .ft_line {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* line 289, ../sass/pricing.scss */
+.all_features_section .ft_line_holder .ft_line p {
+  font-size: 16px;
+}
+/* line 296, ../sass/pricing.scss */
+.all_features_section .ft_line_holder .ft_line:nth-child(even) {
+  background: #f6f8f8;
+}
+
+/* line 304, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap {
   margin-top: 43px;
 }
-/* line 267, ../sass/pricing.scss */
+/* line 306, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap input[type='text'], .start_trial_section .start_trial_form_wrap input[type='email'], .start_trial_section .start_trial_form_wrap input[type='password'] {
   margin-right: 20px;
 }
-/* line 270, ../sass/pricing.scss */
+/* line 309, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt {
   margin-top: 43px;
 }
-/* line 272, ../sass/pricing.scss */
+/* line 311, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt button {
   color: #fff;
   font-size: 21px;
@@ -257,7 +294,7 @@
   border-radius: 52px;
   padding: 17px 25px;
 }
-/* line 279, ../sass/pricing.scss */
+/* line 318, ../sass/pricing.scss */
 .start_trial_section .start_trial_form_wrap .cnt button .arrow_wrap {
   display: inline-block;
   vertical-align: middle;
@@ -268,66 +305,72 @@
 }
 
 @media (max-width: 767px) {
-  /* line 302, ../sass/pricing.scss */
+  /* line 333, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap {
     height: auto;
     width: 100%;
   }
-  /* line 306, ../sass/pricing.scss */
+  /* line 337, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li:first-child {
     margin-left: 0px;
   }
+
+  /* line 345, ../sass/pricing.scss */
+  .all_ft_stack > div {
+    float: none;
+    width: 100%;
+  }
 }
 @media all and (max-width: 640px) {
-  /* line 317, ../sass/pricing.scss */
+  /* line 355, ../sass/pricing.scss */
   .faq_section .faq_blocks_rsec .faq_block {
     float: none;
     width: 100%;
     margin-bottom: 53px;
   }
-  /* line 322, ../sass/pricing.scss */
+  /* line 360, ../sass/pricing.scss */
   .faq_section .faq_blocks_rsec .faq_block:last-child {
     margin-bottom: 0px;
   }
 }
 @media all and (max-width: 400px) {
-  /* line 331, ../sass/pricing.scss */
+  /* line 369, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap {
     height: auto;
     width: 100%;
   }
-  /* line 334, ../sass/pricing.scss */
+  /* line 372, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav {
     padding-left: 0px !important;
     width: 100%;
     border-bottom: none !important;
   }
-  /* line 338, ../sass/pricing.scss */
+  /* line 376, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li {
     float: none;
     padding-left: 2%;
     padding-right: 2%;
   }
-  /* line 342, ../sass/pricing.scss */
+  /* line 380, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li a {
     text-align: center;
     border-radius: 0px;
   }
-  /* line 348, ../sass/pricing.scss */
+  /* line 386, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li.active a, .pricing_section .pricing_tabs_wrap .nav li.active a:hover, .pricing_section .pricing_tabs_wrap .nav li.active a:focus {
     border-bottom-color: #dddddd;
   }
-  /* line 352, ../sass/pricing.scss */
+  /* line 390, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .nav li:first-child {
     margin-left: 0px;
   }
-  /* line 357, ../sass/pricing.scss */
+  /* line 395, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .tab-content .price_box_wrap {
     float: none;
     width: 100%;
     margin-bottom: 15px;
   }
-  /* line 362, ../sass/pricing.scss */
+  /* line 400, ../sass/pricing.scss */
   .pricing_section .pricing_tabs_wrap .tab-content .price_box_wrap:last-child {
     margin-bottom: 0px;
   }
