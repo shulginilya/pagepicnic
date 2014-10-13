@@ -459,38 +459,55 @@
   }
 
   /* line 487, ../sass/home.scss */
+  .get_started_section > .container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  /* line 491, ../sass/home.scss */
   .get_started_section .get_started_form_wrap {
     margin-top: 35px;
   }
+  /* line 493, ../sass/home.scss */
+  .get_started_section .get_started_form_wrap .form-group {
+    display: none;
+  }
+  /* line 497, ../sass/home.scss */
+  .get_started_section .disc, .get_started_section .note {
+    display: none;
+  }
+  /* line 500, ../sass/home.scss */
+  .get_started_section .h {
+    font-size: 28px !important;
+  }
 
-  /* line 492, ../sass/home.scss */
+  /* line 505, ../sass/home.scss */
   .demo_screen_preview_section {
     display: none;
   }
 
-  /* line 497, ../sass/home.scss */
+  /* line 510, ../sass/home.scss */
   .promotion_section .container {
     padding-top: 0px;
   }
-  /* line 502, ../sass/home.scss */
+  /* line 515, ../sass/home.scss */
   .promotion_section .promo_block .pic_holder img.mt_top {
     width: 100%;
   }
 
-  /* line 510, ../sass/home.scss */
+  /* line 523, ../sass/home.scss */
   .our_word_section .our_word_block {
     margin-bottom: 0px;
   }
-  /* line 513, ../sass/home.scss */
+  /* line 526, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .h {
     font-size: 22px;
   }
-  /* line 516, ../sass/home.scss */
+  /* line 529, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .desc {
     font-size: 14px;
   }
 
-  /* line 525, ../sass/home.scss */
+  /* line 538, ../sass/home.scss */
   .choose_templates_section .cnt a, .bus_standout .cnt a, .our_word_section .cnt a {
     font-size: 16px;
   }

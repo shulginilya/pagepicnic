@@ -484,8 +484,21 @@
 	}
 
 	.get_started_section {
+		> .container {
+			padding-top: 40px !important;
+			padding-bottom: 40px !important;
+		}
 		.get_started_form_wrap {
 			margin-top: 35px;
+			.form-group {
+				display: none;
+			}
+		}
+		.disc, .note {
+			display: none;
+		}
+		.h {
+			font-size: 28px !important;
 		}
 	}
 
