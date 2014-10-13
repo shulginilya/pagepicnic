@@ -84,6 +84,12 @@ body {
 		vertical-align: top;
 	}
 
+	.col_20 {
+		display: inline-block;
+		width: 20%;
+		vertical-align: top;
+	}
+
 	.row_relative {
 		position: relative;
 	}
@@ -612,6 +618,9 @@ body {
 				margin-top: 15px;
 			}
 		}
+	}
+	.col_20.tuh_nav_block {
+		display: none;
 	}
 }
 
