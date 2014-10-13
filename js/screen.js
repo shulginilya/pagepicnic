@@ -53,12 +53,4 @@ $(document).ready(function() {
 		animated_scroll_top();
 	});
 
-	$(".main_nav_more_lnk, .tuh_close").bind("click", function(e) {
-		if($('.top_under_header').hasClass('act')) {
-			$('.top_under_header').removeClass('act');
-		} else {
-			$('.top_under_header').addClass('act');
-		}
-	});
-
 });
