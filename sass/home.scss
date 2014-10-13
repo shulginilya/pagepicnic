@@ -66,12 +66,12 @@
 				margin-top: 7px;
 			}
 		}
-		.desc {
-			text-align: center;
-			margin-top: 24px;
-			font-size: 14px;
-			font-weight: 200;
-		}
+		// .desc {
+		// 	text-align: center;
+		// 	margin-top: 24px;
+		// 	font-size: 14px;
+		// 	font-weight: 200;
+		// }
 	}
 }
 
@@ -480,6 +480,13 @@
 	.promotion_section {
 		.container {
 			padding-top: 0px;
+		}
+		.promo_block {
+			.pic_holder {
+				img.mt_top {
+					width: 100%;
+				}
+			}
 		}
 	}
 

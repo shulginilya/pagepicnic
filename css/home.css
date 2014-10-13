@@ -73,13 +73,6 @@
   margin: 0 auto;
   margin-top: 7px;
 }
-/* line 69, ../sass/home.scss */
-.promotion_section .promo_block .desc {
-  text-align: center;
-  margin-top: 24px;
-  font-size: 14px;
-  font-weight: 200;
-}
 
 /* line 80, ../sass/home.scss */
 .choose_templates_section .container {
@@ -460,21 +453,25 @@
   .promotion_section .container {
     padding-top: 0px;
   }
+  /* line 486, ../sass/home.scss */
+  .promotion_section .promo_block .pic_holder img.mt_top {
+    width: 100%;
+  }
 
-  /* line 487, ../sass/home.scss */
+  /* line 494, ../sass/home.scss */
   .our_word_section .our_word_block {
     margin-bottom: 0px;
   }
-  /* line 490, ../sass/home.scss */
+  /* line 497, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .h {
     font-size: 22px;
   }
-  /* line 493, ../sass/home.scss */
+  /* line 500, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .desc {
     font-size: 14px;
   }
 
-  /* line 502, ../sass/home.scss */
+  /* line 509, ../sass/home.scss */
   .choose_templates_section .cnt a, .bus_standout .cnt a, .our_word_section .cnt a {
     font-size: 16px;
   }
