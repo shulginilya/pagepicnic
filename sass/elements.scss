@@ -152,6 +152,18 @@ body {
 				}
 			}
 		}
+		.mob_get_started_btn {
+			margin-bottom: 10px;
+		}
+		.mob_get_started_btn:hover {
+			color: #5d6974;
+		}
+
+		.mob_close_inside {
+			cursor: pointer;
+			font-size: 2em;
+			margin-left: 20px;
+		}
 	}
 	.mobile_sidebar_menu.m_toggle {
 		display: block;
