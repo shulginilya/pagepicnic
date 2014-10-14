@@ -241,12 +241,14 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 		.pic_holder {
+			float: left;
 			img {
 				width: 100%;
 				display: block;
 			}
 		}
 		.desc_holder {
+			float: right;
 			.h {
 				font-size: 26px;
 				color: #222222;
@@ -261,6 +263,7 @@
 				line-height: 1.6em;
 			}
 			.disc {
+				text-align: left;
 				.n {
 					font-size: 16px;
 					color: #222222;
@@ -274,6 +277,20 @@
 	}
 	.our_word_block:last-child {
 		margin-bottom: 0px;
+	}
+	.our_word_block:nth-child(odd) {
+		.owb_holder:nth-child(1) {
+			float: right;
+		}
+		.owb_holder:nth-child(2) {
+			float: left;
+		}
+		.pic_holder {
+			float: right;
+		}
+		.desc_holder {
+			float: left;
+		}
 	}
 	.cnt {
 		margin-top: 72px;
@@ -352,22 +369,12 @@
 	}
 
 	.our_word_section {
-		.h {
-			margin-bottom: 0px;
-		}
-	}
-	.our_word_block {
-		.h {
-			margin-bottom: 0px;
-		}
-		.pic_holder {
-			display: none;
-			width: 70%;
-			float: none !important;
-			margin: 0 auto;
-		}
-		.desc_holder {
-			float: none !important;
+		.owb_holder {
+			float: none;
+			width: 100%;
+			.pic_holder, .desc_holder {
+				float: none !important;
+			}
 		}
 	}
 }
