@@ -442,72 +442,72 @@
     margin-right: 10px;
   }
 }
-@media all and (max-width: 360px) {
-  /* line 471, ../sass/home.scss */
+@media all and (max-width: 400px) {
+  /* line 472, ../sass/home.scss */
   .choose_templates_section .h, .get_started_section .h, .promotion_section .h, .bus_standout .h, .our_word_section .h, .start_trial_section .h {
     font-size: 24px;
   }
-  /* line 474, ../sass/home.scss */
+  /* line 475, ../sass/home.scss */
   .choose_templates_section .disc, .get_started_section .disc, .promotion_section .disc, .bus_standout .disc, .our_word_section .disc, .start_trial_section .disc {
     font-size: 18px;
   }
 
-  /* line 480, ../sass/home.scss */
+  /* line 481, ../sass/home.scss */
   .choose_templates_section > .container, .bus_standout > .container, .our_word_section > .container, .start_trial_section > .container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  /* line 487, ../sass/home.scss */
+  /* line 488, ../sass/home.scss */
   .get_started_section > .container {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
-  /* line 491, ../sass/home.scss */
+  /* line 492, ../sass/home.scss */
   .get_started_section .get_started_form_wrap {
     margin-top: 35px;
   }
-  /* line 493, ../sass/home.scss */
+  /* line 494, ../sass/home.scss */
   .get_started_section .get_started_form_wrap .form-group {
     display: none;
   }
-  /* line 497, ../sass/home.scss */
+  /* line 498, ../sass/home.scss */
   .get_started_section .disc, .get_started_section .note {
     display: none;
   }
-  /* line 500, ../sass/home.scss */
+  /* line 501, ../sass/home.scss */
   .get_started_section .h {
     font-size: 28px !important;
   }
 
-  /* line 505, ../sass/home.scss */
+  /* line 506, ../sass/home.scss */
   .demo_screen_preview_section {
     display: none;
   }
 
-  /* line 510, ../sass/home.scss */
+  /* line 511, ../sass/home.scss */
   .promotion_section .container {
     padding-top: 0px;
   }
-  /* line 515, ../sass/home.scss */
+  /* line 516, ../sass/home.scss */
   .promotion_section .promo_block .pic_holder img.mt_top {
     width: 100%;
   }
 
-  /* line 523, ../sass/home.scss */
+  /* line 524, ../sass/home.scss */
   .our_word_section .our_word_block {
     margin-bottom: 0px;
   }
-  /* line 526, ../sass/home.scss */
+  /* line 527, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .h {
     font-size: 22px;
   }
-  /* line 529, ../sass/home.scss */
+  /* line 530, ../sass/home.scss */
   .our_word_section .our_word_block .desc_holder .desc {
     font-size: 14px;
   }
 
-  /* line 538, ../sass/home.scss */
+  /* line 539, ../sass/home.scss */
   .choose_templates_section .cnt a, .bus_standout .cnt a, .our_word_section .cnt a {
     font-size: 16px;
   }
