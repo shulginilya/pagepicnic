@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script type="text/javascript" src="./js/jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/ajaxupload.js"></script>
     <script type="text/javascript" src="./js/screen.js"></script>
+    <script type="text/javascript" src="./js/support_reg.js"></script>
 
     <link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6853292/742966/css/fonts.css" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -41,41 +43,105 @@
       <div class='support_reg_inside regular_content_block'>
         <div class='container'>
           <div class='row clearfix'>
-            <div class='col-xs-6 col-sm-8 col-md-8 clearfix left_r'>
-              <div class='team_pic_block'>
-                <img src="./images/team_pic_1.png">
-                <p class='tpb_h text-center boldy'>Joanna</p>
+
+            <div class='col-xs-6 col-sm-7 col-md-7 clearfix left_r'>
+              <div class='sri_logged_block'>
+                <div class='row logged_row_wrap clearfix'>
+                  <div class='logged_row clearfix'>
+                    <div class='col-xs-6 col-sm-4 col-md-4'>
+                      <p>You are logged in as:</p>
+                    </div>
+                    <div class='col-xs-6 col-sm-8 col-md-8'>
+                      <p class='boldy'>Peter Parker</p>
+                    </div>
+                  </div>
+                  <div class='logged_row clearfix'>
+                    <div class='col-xs-6 col-sm-4 col-md-4'>
+                      <p>Your email address:</p>
+                    </div>
+                    <div class='col-xs-6 col-sm-8 col-md-8'>
+                      <p class='boldy'>peter@parker.com</p>
+                    </div>
+                  </div>
+                  <div class='logged_row clearfix'>
+                    <div class='col-xs-6 col-sm-4 col-md-4'>
+                      <p>Your mobile number:</p>
+                    </div>
+                    <div class='col-xs-6 col-sm-8 col-md-8'>
+                      <p class='boldy'>070-3243432</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class='team_pic_block'>
-                <img src="./images/team_pic_2.png">
-                <p class='tpb_h text-center boldy'>John</p>
-              </div>
-              <div class='team_pic_block'>
-                <img src="./images/team_pic_3.png">
-                <p class='tpb_h text-center boldy'>Lara</p>
-              </div>
-              <div class='team_pic_block'>
-                <img src="./images/team_pic_4.png">
-                <p class='tpb_h text-center boldy'>Julia</p>
-              </div>
-              <div class='team_pic_block'>
-                <img src="./images/team_pic_5.png">
-                <p class='tpb_h text-center boldy'>Carolina</p>
-              </div>
+
+              <form role="form" class='contact_us_form'>
+                <div class="form-group">
+                  <label>Explain your question in short words:</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Write your question:</label>
+                  <textarea class='form-control'></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="button" id="attach_image_file" class="btn btn-success btn-success-custom middle_size filled">Attach a file or image</button>
+                </div>
+                <div class='text-center'>
+                  <button type="submit" class="btn btn-success btn-success-custom middle_size filled" onclick='return false;'>Send</button>
+                </div>
+              </form>
+
             </div>
-            <div class='col-xs-6 col-sm-4 col-md-4 right_r'>
+
+            <div class='col-xs-6 col-sm-5 col-md-5 right_r'>
+
+              <div class='team_member_block'>
+                <p>The team that will help</p>
+                <div class="team_member_box clearfix">
+                  <div class='team_pic_block'>
+                    <img src="./images/team_pic_1.png">
+                    <p class='tpb_h text-center boldy'>Joanna</p>
+                  </div>
+                  <div class='team_pic_block'>
+                    <img src="./images/team_pic_2.png">
+                    <p class='tpb_h text-center boldy'>John</p>
+                  </div>
+                  <div class='team_pic_block'>
+                    <img src="./images/team_pic_3.png">
+                    <p class='tpb_h text-center boldy'>Lara</p>
+                  </div>
+                  <div class='team_pic_block'>
+                    <img src="./images/team_pic_4.png">
+                    <p class='tpb_h text-center boldy'>Julia</p>
+                  </div>
+                  <div class='team_pic_block'>
+                    <img src="./images/team_pic_5.png">
+                    <p class='tpb_h text-center boldy'>Carolina</p>
+                  </div>
+                </div>
+              </div>
+
               <div class='tickets_block'>
-                <p class='hl1 text-center boldy'>We currently have</p>
-                <p class='hl2 text-center green_text'>4</p>
-                <p class='hl3 text-center boldy'>tickets in queue</p>
+                <p>Current ticket que</p>
+                <div class='tickets_box'>
+                  <p class='hl1 text-center boldy'>We currently have</p>
+                  <p class='hl2 text-center green_text'>4</p>
+                  <p class='hl3 text-center boldy'>tickets in queue</p>
+                </div>
               </div>
+
               <div class='timing_block'>
-                <p class='hl text-center boldy'>Mondays - Thursdays</p>
-                <p class='tl text-center'>8.00 am - 5.00 pm GMT +1 </p>
-                <p class='hl text-center boldy'>Fridays</p>
-                <p class='tl text-center'>8.00 am - 3.00 pm GMT +1 </p>
+                <p>Opening hours</p>
+                <div class='timing_box'>
+                  <p class='hl text-center boldy'>Mondays - Thursdays</p>
+                  <p class='tl text-center'>8.00 am - 5.00 pm GMT +1 </p>
+                  <p class='hl text-center boldy'>Fridays</p>
+                  <p class='tl text-center'>8.00 am - 3.00 pm GMT +1 </p>
+                </div>
               </div>
+
             </div>
+
           </div>
         </div>
       </div>

@@ -1,55 +1,123 @@
 @import url('elements.css');
 
 .support_reg_inside {
-	.team_pic_block {
-		margin-right: 50px;
-		float: left;
-		margin-bottom: 30px;
-		img {
-			border-radius: 50%;
-			display: block;
-			margin: 0 auto;
-		}
-		.tpb_h {
-			font-size: 18px;
-			color: #222222;
-			margin-top: 25px;
-		}
+	> .container {
+		padding-top: 0px !important;
 	}
-	.team_pic_block:last-child {
-		margin-right: 0px;
+	.team_member_block {
+		margin-bottom: 40px;
+		> p {
+			font-size: 14px;
+			font-weight: 200;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.team_member_box {
+			border: solid 2px #e2e6e9;
+			border-radius: 4px;
+			padding-top: 15px;
+			padding-left: 15px;
+			padding-right: 15px;
+
+			.team_pic_block {
+				width: 30%;
+				float: left;
+				margin-bottom: 15px;
+				img {
+					border-radius: 50%;
+					display: block;
+					margin: 0 auto;
+					width: 100%;
+				}
+				.tpb_h {
+					font-size: 16px;
+					color: #222222;
+					margin-top: 10px;
+				}
+			}
+			.team_pic_block:nth-child(1), .team_pic_block:nth-child(2), .team_pic_block:nth-child(4) {
+				margin-right: 20px;
+			}
+
+		}
 	}
 
 	.tickets_block {
-		border: solid 2px #e2e6e9;
-		border-radius: 4px;
-		padding-top: 42px;
-		padding-bottom: 42px;
 		margin-bottom: 40px;
-		.hl1, .hl3 {
-			font-size: 18px;
-			color: #222222;
+		> p {
+			font-size: 14px;
+			font-weight: 200;
+			margin-bottom: 10px;
+			text-align: center;
 		}
-		.hl2 {
-			font-size: 96px;
+		.tickets_box {
+			border: solid 2px #e2e6e9;
+			border-radius: 4px;
+			padding-top: 42px;
+			padding-bottom: 42px;
+			.hl1, .hl3 {
+				font-size: 18px;
+				color: #222222;
+			}
+			.hl2 {
+				font-size: 96px;
+			}
 		}
 	}
 	.timing_block {
+		> p {
+			font-size: 14px;
+			font-weight: 200;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.timing_box {
+			border: solid 2px #e2e6e9;
+			border-radius: 4px;
+			padding-top: 42px;
+			padding-bottom: 42px;
+			.hl {
+				font-size: 18px;
+				color: #222222;
+				margin-bottom: 23px;
+			}
+			.tl {
+				font-size: 16px;
+				font-weight: 200;
+			}
+			p:nth-child(2) {
+				margin-bottom: 41px;
+			}
+		}
+	}
+
+	.sri_logged_block {
 		border: solid 2px #e2e6e9;
 		border-radius: 4px;
-		padding-top: 42px;
-		padding-bottom: 42px;
-		.hl {
-			font-size: 18px;
-			color: #222222;
-			margin-bottom: 23px;
+		padding: 20px;
+		margin-top: 28px;
+		.logged_row {
+			margin-bottom: 15px;
+			p {
+				font-size: 14px;
+			}
 		}
-		.tl {
-			font-size: 16px;
+		.logged_row:last-child {
+			margin-bottom: 0px;
+		}
+	}
+
+	.contact_us_form {
+		margin-top: 60px;
+		margin-bottom: 30px;
+		label {
+			font-size: 14px;
 			font-weight: 200;
+			margin-bottom: 10px;
 		}
-		p:nth-child(2) {
-			margin-bottom: 41px;
+		button[type='submit']  {
+			width: 100%;
+			border-radius: 15px;
 		}
 	}
 }
