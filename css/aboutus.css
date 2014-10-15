@@ -209,41 +209,114 @@
   margin-left: 15px;
 }
 
+/* line 188, ../sass/aboutus.scss */
+.tabs_system_section {
+  display: none;
+}
+
+/* line 191, ../sass/aboutus.scss */
+.tabs_system_section.active {
+  display: block;
+}
+
+/* line 196, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page > .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 200, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .hl {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 205, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .ds {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 200;
+}
+/* line 210, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap {
+  width: 767px;
+  margin: 0 auto;
+}
+/* line 213, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form {
+  margin-top: 30px;
+}
+/* line 215, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form label {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+/* line 220, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form button[type='submit'] {
+  width: 100%;
+  border-radius: 15px;
+}
+/* line 225, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div:first-child {
+  padding-left: 0px;
+}
+/* line 228, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div:last-child {
+  padding-right: 0px;
+}
+/* line 233, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .party_hl {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 60px;
+}
+/* line 240, ../sass/aboutus.scss */
+.tabs_system_section.tss_jobs_page .jobs_form_wrap .video_holder {
+  margin-top: 60px;
+}
+
 @media all and (max-width: 991px) {
-  /* line 190, ../sass/aboutus.scss */
+  /* line 248, ../sass/aboutus.scss */
   .aboutus_map_block .amb_textline {
     left: 6%;
     width: 94%;
   }
 }
 @media (max-width: 767px) {
-  /* line 201, ../sass/aboutus.scss */
+  /* line 259, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li {
     margin-right: 20px;
   }
-  /* line 204, ../sass/aboutus.scss */
+  /* line 262, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
     margin-right: 0px;
   }
 
-  /* line 212, ../sass/aboutus.scss */
+  /* line 270, ../sass/aboutus.scss */
   .about_us_content_line .auc_txt_block_wrap.rect_middle {
+    width: 100%;
+  }
+
+  /* line 276, ../sass/aboutus.scss */
+  .tabs_system_section.tss_jobs_page .jobs_form_wrap {
     width: 100%;
   }
 }
 @media all and (max-width: 640px) {
-  /* line 220, ../sass/aboutus.scss */
+  /* line 284, ../sass/aboutus.scss */
   .regular_content_block .container {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
 
-  /* line 226, ../sass/aboutus.scss */
+  /* line 290, ../sass/aboutus.scss */
   .aboutus_headnav_block .aboutus_headnav_img_hold {
     display: none;
   }
 
-  /* line 233, ../sass/aboutus.scss */
+  /* line 297, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li {
     float: none;
     width: 100%;
@@ -251,22 +324,22 @@
     margin-right: 0px;
     margin-bottom: 15px;
   }
-  /* line 239, ../sass/aboutus.scss */
+  /* line 303, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li a:hover {
     border-bottom: none;
   }
-  /* line 243, ../sass/aboutus.scss */
+  /* line 307, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
     margin-right: 0px;
     margin-bottom: 0px;
   }
 
-  /* line 251, ../sass/aboutus.scss */
+  /* line 315, ../sass/aboutus.scss */
   .about_us_content_line .auc_bc_txt_block {
     background-image: none;
     height: auto;
   }
-  /* line 254, ../sass/aboutus.scss */
+  /* line 318, ../sass/aboutus.scss */
   .about_us_content_line .auc_bc_txt_block .abtb_inside {
     float: none !important;
     width: 100%;
@@ -276,8 +349,19 @@
   }
 }
 @media all and (max-width: 400px) {
-  /* line 267, ../sass/aboutus.scss */
+  /* line 331, ../sass/aboutus.scss */
   .aboutus_map_block .aboutus_map_img_hold {
     height: 300px;
+  }
+
+  /* line 340, ../sass/aboutus.scss */
+  .tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div {
+    padding: 0px;
+    float: none;
+    width: 100%;
+  }
+  /* line 345, ../sass/aboutus.scss */
+  .tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div:first-child {
+    margin-bottom: 15px;
   }
 }

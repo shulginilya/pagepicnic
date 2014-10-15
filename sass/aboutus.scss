@@ -185,6 +185,64 @@
 	}
 }
 
+.tabs_system_section {
+	display: none;
+}
+.tabs_system_section.active {
+	display: block;
+}
+
+.tabs_system_section.tss_jobs_page {
+	> .container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.hl {
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.ds {
+		font-size: 18px;
+		line-height: 1.6em;
+		font-weight: 200;
+	}
+	.jobs_form_wrap {
+		width: 767px;
+		margin: 0 auto;
+		.jobs_form {
+			margin-top: 30px;
+			label {
+				font-size: 14px;
+				font-weight: 200;
+				margin-bottom: 10px;
+			}
+			button[type='submit']  {
+				width: 100%;
+				border-radius: 15px;
+			}
+			.form-group.two_lines_rows {
+				> div:first-child {
+					padding-left: 0px;
+				}
+				> div:last-child {
+					padding-right: 0px;
+				}
+			}
+		}
+		.party_hl {
+			font-size: 18px;
+			line-height: 1.6em;
+			font-weight: 200;
+			text-align: center;
+			margin-top: 60px;
+		}
+		.video_holder {
+			margin-top: 60px;
+		}
+	}
+}
+
 @media all and (max-width: 991px) {
 	.aboutus_map_block {
 		.amb_textline {
@@ -213,6 +271,12 @@
 			width: 100%;
 		}
 	} 
+
+	.tabs_system_section.tss_jobs_page {
+		.jobs_form_wrap {
+			width: 100%;
+		}
+	}
 }
 
 @media all and (max-width: 640px) {
@@ -266,6 +330,23 @@
 	.aboutus_map_block {
 		.aboutus_map_img_hold {
 			height: 300px;
+		}
+	}
+
+	.tabs_system_section.tss_jobs_page {
+		.jobs_form_wrap {
+			.jobs_form {
+				.form-group.two_lines_rows {
+					> div {
+						padding: 0px;
+						float: none;
+						width: 100%;
+					}
+					> div:first-child {
+						margin-bottom: 15px;
+					}
+				}
+			}
 		}
 	}
 }
