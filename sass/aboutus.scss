@@ -243,6 +243,43 @@
 	}
 }
 
+.tabs_system_section.tss_soc_resp_page {
+	> .container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.hl {
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.org_stack_over {
+		width: 767px;
+		margin: 0 auto;
+		margin-top: 60px;
+		.org_row {
+			margin-bottom: 40px;
+		}
+		.org_row:last-child {
+			margin-bottom: 0px;
+		}
+		.org_block {
+			img {
+				display: block;
+				margin: 0 auto;
+				max-width: 100%;
+			}
+			p {
+				font-size: 14px;
+				font-weight: 200;
+				line-height: 1.6em;
+				margin-top: 15px;
+				text-align: center;
+			}
+		}
+	}
+}
+
 @media all and (max-width: 991px) {
 	.aboutus_map_block {
 		.amb_textline {
@@ -274,6 +311,12 @@
 
 	.tabs_system_section.tss_jobs_page {
 		.jobs_form_wrap {
+			width: 100%;
+		}
+	}
+
+	.tabs_system_section.tss_soc_resp_page {
+		.org_stack_over {
 			width: 100%;
 		}
 	}
@@ -321,6 +364,23 @@
 				padding-left: 0px;
 				padding-right: 0px;
 				padding-bottom: 0px;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 568px) {
+	.tabs_system_section.tss_soc_resp_page {
+		.org_stack_over {
+			.org_row {
+				> div  {
+					padding: 0px;
+					float: none;
+					width: 100%;
+				}
+				.org_block:first-child {
+					margin-bottom: 25px !important;
+				}
 			}
 		}
 	}

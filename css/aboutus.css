@@ -277,46 +277,91 @@
   margin-top: 60px;
 }
 
+/* line 247, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page > .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 251, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .hl {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 256, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .org_stack_over {
+  width: 767px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+/* line 260, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .org_stack_over .org_row {
+  margin-bottom: 40px;
+}
+/* line 263, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .org_stack_over .org_row:last-child {
+  margin-bottom: 0px;
+}
+/* line 267, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .org_stack_over .org_block img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/* line 272, ../sass/aboutus.scss */
+.tabs_system_section.tss_soc_resp_page .org_stack_over .org_block p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.6em;
+  margin-top: 15px;
+  text-align: center;
+}
+
 @media all and (max-width: 991px) {
-  /* line 248, ../sass/aboutus.scss */
+  /* line 285, ../sass/aboutus.scss */
   .aboutus_map_block .amb_textline {
     left: 6%;
     width: 94%;
   }
 }
 @media (max-width: 767px) {
-  /* line 259, ../sass/aboutus.scss */
+  /* line 296, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li {
     margin-right: 20px;
   }
-  /* line 262, ../sass/aboutus.scss */
+  /* line 299, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
     margin-right: 0px;
   }
 
-  /* line 270, ../sass/aboutus.scss */
+  /* line 307, ../sass/aboutus.scss */
   .about_us_content_line .auc_txt_block_wrap.rect_middle {
     width: 100%;
   }
 
-  /* line 276, ../sass/aboutus.scss */
+  /* line 313, ../sass/aboutus.scss */
   .tabs_system_section.tss_jobs_page .jobs_form_wrap {
+    width: 100%;
+  }
+
+  /* line 319, ../sass/aboutus.scss */
+  .tabs_system_section.tss_soc_resp_page .org_stack_over {
     width: 100%;
   }
 }
 @media all and (max-width: 640px) {
-  /* line 284, ../sass/aboutus.scss */
+  /* line 327, ../sass/aboutus.scss */
   .regular_content_block .container {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
 
-  /* line 290, ../sass/aboutus.scss */
+  /* line 333, ../sass/aboutus.scss */
   .aboutus_headnav_block .aboutus_headnav_img_hold {
     display: none;
   }
 
-  /* line 297, ../sass/aboutus.scss */
+  /* line 340, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li {
     float: none;
     width: 100%;
@@ -324,22 +369,22 @@
     margin-right: 0px;
     margin-bottom: 15px;
   }
-  /* line 303, ../sass/aboutus.scss */
+  /* line 346, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li a:hover {
     border-bottom: none;
   }
-  /* line 307, ../sass/aboutus.scss */
+  /* line 350, ../sass/aboutus.scss */
   .aboutus_headnav_block .ahb_nav_hold ul li:last-child {
     margin-right: 0px;
     margin-bottom: 0px;
   }
 
-  /* line 315, ../sass/aboutus.scss */
+  /* line 358, ../sass/aboutus.scss */
   .about_us_content_line .auc_bc_txt_block {
     background-image: none;
     height: auto;
   }
-  /* line 318, ../sass/aboutus.scss */
+  /* line 361, ../sass/aboutus.scss */
   .about_us_content_line .auc_bc_txt_block .abtb_inside {
     float: none !important;
     width: 100%;
@@ -348,19 +393,31 @@
     padding-bottom: 0px;
   }
 }
+@media all and (max-width: 568px) {
+  /* line 376, ../sass/aboutus.scss */
+  .tabs_system_section.tss_soc_resp_page .org_stack_over .org_row > div {
+    padding: 0px;
+    float: none;
+    width: 100%;
+  }
+  /* line 381, ../sass/aboutus.scss */
+  .tabs_system_section.tss_soc_resp_page .org_stack_over .org_row .org_block:first-child {
+    margin-bottom: 25px !important;
+  }
+}
 @media all and (max-width: 400px) {
-  /* line 331, ../sass/aboutus.scss */
+  /* line 391, ../sass/aboutus.scss */
   .aboutus_map_block .aboutus_map_img_hold {
     height: 300px;
   }
 
-  /* line 340, ../sass/aboutus.scss */
+  /* line 400, ../sass/aboutus.scss */
   .tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div {
     padding: 0px;
     float: none;
     width: 100%;
   }
-  /* line 345, ../sass/aboutus.scss */
+  /* line 405, ../sass/aboutus.scss */
   .tabs_system_section.tss_jobs_page .jobs_form_wrap .jobs_form .form-group.two_lines_rows > div:first-child {
     margin-bottom: 15px;
   }
