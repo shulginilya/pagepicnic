@@ -1,4 +1,4 @@
-@import url('elements.css');
+@import "elements";
 
 .support_section {
 	.support_search_holder {
@@ -14,7 +14,7 @@
 			top: 16px;
 			right: 18px;
 			font-size: 28px;
-			color: #48ad42;
+			color: $green_color;
 		}
 	}
 	.pic_img_holder {
@@ -24,7 +24,7 @@
 	.support_inside_menu {
 		margin-top: 50px;
 		.sim_block {
-			border: solid 2px #e2e6e9;
+			border: solid 2px $blue_l_grey;
 			border-radius: 4px;
 			padding-top: 40px;
 			padding-bottom: 40px;

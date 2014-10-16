@@ -1,4 +1,4 @@
-@import url('elements.css');
+@import "elements";
 
 .info_icon + .tooltip {
 	.tooltip-inner {
@@ -10,7 +10,7 @@
 			margin-top: 0px !important;
 			margin-bottom: 0px !important;
 			font-size: 14px !important;
-			color: #fff !important;
+			color: $white_color !important;
 			font-weight: 200;
 			text-align: left !important;
 		}
@@ -35,7 +35,7 @@
 
 .pricing_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.pricing_tabs_wrap {
 		width: 705px;
@@ -43,7 +43,7 @@
 		margin-top: 80px;
 
 		.nav-tabs {
-			border-bottom: solid 2px #dfe4e9;
+			border-bottom: solid 2px $blue_l_grey;
 			li {
 				position: relative;
 				margin-bottom: -2px;
@@ -54,12 +54,12 @@
 			}
 			li.active {
 				a {
-					color: #48ad42;
+					color: $green_color;
 				}
 			}
 			li:not(.active) {
 				a:hover {
-					color: #48ad42;
+					color: $green_color;
 					background-color: transparent;
 					border-color: transparent;
 				}
@@ -69,7 +69,7 @@
 			}
 		}
 		.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-			border: solid 2px #dfe4e9;
+			border: solid 2px $blue_l_grey;
 			border-bottom-color: transparent;
 		}
 
@@ -77,10 +77,10 @@
 			.price_box {
 				margin-top: 60px;
 				border-radius: 4px;
-				border: solid 2px #e2e6e9;
+				border: solid 2px $blue_l_grey;
 				.headline {
 					font-size: 26px;
-					color: #222222;
+					color: $text_black_color;
 					font-weight: 400;
 					text-align: center;
 					padding-top: 34px;
@@ -88,13 +88,13 @@
 				}
 				.pay_line {
 					height: 90px;
-					background: #f6f8f8;
+					background: $blue_h_grey;
 					padding-top: 12px;
 					.pcost_line {
 						margin-bottom: 8px;
 						text-align: center;
 						span {
-							color: #48ad42;
+							color: $green_color;
 						}
 						.one {
 							font-size: 32px;
@@ -105,18 +105,18 @@
 					}
 					.dcost_line {
 						font-size: 14px;
-						color: #48ad42;
+						color: $green_color;
 						text-align: center;
 					}
 				}
 				.reg_block {
 					p {
 						text-align: center;
-						color: #030303;
+						color: $text_black_color;
 						font-size: 16px;
 						margin-top: 35px;
 						span {
-							color: #030303;
+							color: $text_black_color;
 							font-size: 16px;
 						}
 						.info_icon {
@@ -132,21 +132,21 @@
 				}
 			}
 			.price_box.active {
-				border: solid 2px #48ad42;
+				border: solid 2px $green_color;
 				.pay_line {
-					background: #48ad42;
+					background: $green_color;
 					.pcost_line {
 						span {
-							color: #fff;
+							color: $white_color;
 						}
 					}
 					.dcost_line {
-						color: #fff;
+						color: $white_color;
 					}
 				}
 				.foot {
 					height: 56px;
-					background: #48ad42;
+					background: $green_color;
 				}
 			}
 		}
@@ -154,10 +154,10 @@
 		.cnt {
 			margin-top: 68px;
 			a {
-				color: #fff;
+				color: $white_color;
 				font-size: 21px;
-				border: solid 2px #48ad42;
-				background-color: #48ad42;
+				border: solid 2px $green_color;
+				background-color: $green_color;
 				border-radius: 52px;
 				padding: 17px 25px;
 				.arrow_wrap {
@@ -189,62 +189,9 @@
 	}
 }
 
-// .bus_standout {
-// 	.container {
-// 		border-bottom: solid 1px #c8d1d8;
-// 	}
-// 	.standout_block {
-// 		margin-top: 40px;
-// 		.pic_holder {
-// 			img {
-// 				display: block;
-// 				margin: 0 auto;
-// 			}
-// 		}
-// 		.head {
-// 			font-size: 21px;
-// 			color: #222222;
-// 			text-align: center;
-// 			margin-bottom: 20px;
-// 			margin-top: 43px;
-// 		}
-// 		.desc {
-// 			text-align: center;
-// 			font-size: 16px;
-// 			line-height: 1.6em;
-// 			font-weight: 200;
-// 		}
-// 	}
-// 	.cnt {
-// 		margin-top: 60px;
-// 		a {
-// 			color: #48ad42;
-// 			font-size: 21px;
-// 			border: solid 2px #48ad42;
-// 			background-color: transparent;
-// 			border-radius: 34px;
-// 			padding: 17px 25px;
-// 			.arrow_wrap {
-// 				display: inline-block;
-// 				vertical-align: middle;
-// 				background: url("../images/green_arrow_r.png");
-// 				width: 25px;
-// 				height: 19px;
-// 			}
-// 		}
-// 		a:hover {
-// 			background-color: #48ad42;
-// 			color: #fff;
-// 			.arrow_wrap {
-// 				background: url("../images/white_arrow_r.png");
-// 			}
-// 		}
-// 	}
-// }
-
 .faq_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.faq_blocks_rsec {
 		margin-top: 70px;
@@ -252,7 +199,7 @@
 		.faq_block {
 			.faq_h {
 				font-size: 21px;
-				color: #222222;
+				color: $text_black_color;
 				margin-top: 20px;
 				margin-bottom: 20px;
 			}
@@ -270,12 +217,12 @@
 
 .all_features_section {
 	> .container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.cnt_left {
 		a {
 			font-size: 16px;
-			color: #48ad42;
+			color: $green_color;
 			.arrow_wrap {
 				display: inline-block;
 				vertical-align: middle;
@@ -286,7 +233,7 @@
 			}
 			span {
 				font-size: 16px;
-				color: #48ad42;
+				color: $green_color;
 			}
 		}
 	}
@@ -302,7 +249,7 @@
 
 		}
 		.ft_line:nth-child(even) {
-			background: #f6f8f8;
+			background: $blue_h_grey;
 		}
 	}
 }
@@ -317,10 +264,10 @@
 		.cnt {
 			margin-top: 43px;
 			button {
-				color: #fff;
+				color: $white_color;
 				font-size: 21px;
-				border: solid 2px #48ad42;
-				background-color: #48ad42;
+				border: solid 2px $green_color;
+				background-color: $green_color;
 				border-radius: 52px;
 				padding: 17px 25px;
 				.arrow_wrap {

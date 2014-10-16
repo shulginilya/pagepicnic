@@ -1,8 +1,8 @@
-@import url('elements.css');
+@import "elements";
 
 .features_intro_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.h {
 		display: block;
@@ -55,7 +55,7 @@
 				}
 				.rf_h {
 					font-size: 21px;
-					color: #222222;
+					color: $text_black_color;
 					margin-bottom: 17px;
 				}
 			}
@@ -65,7 +65,7 @@
 
 .full_content_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.img_ic_holder {
 		margin-bottom: 25px;
@@ -87,7 +87,7 @@
 			margin-bottom: 45px;
 			.h {
 				font-size: 21px;
-				color: #222222;
+				color: $text_black_color;
 				text-align: left;
 				margin-top: 23px;
 				margin-bottom: 16px;
@@ -107,7 +107,7 @@
 
 .full_customize_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.img_ic_holder {
 		margin-bottom: 25px;
@@ -128,7 +128,7 @@
 			margin-bottom: 45px;
 			.h {
 				font-size: 21px;
-				color: #222222;
+				color: $text_black_color;
 				text-align: left;
 				margin-top: 23px;
 				margin-bottom: 16px;
@@ -148,7 +148,7 @@
 
 .full_mobile_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.img_ic_holder {
 		margin-bottom: 25px;
@@ -172,7 +172,7 @@
 
 .full_more_section {
 	.container {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 	.img_ic_holder {
 		margin-bottom: 25px;
@@ -189,7 +189,7 @@
 			}
 			.fms_h {
 				font-size: 21px;
-				color: #222222;
+				color: $text_black_color;
 				margin-top: 20px;
 				margin-bottom: 20px;
 			}
@@ -224,10 +224,10 @@
 		.cnt {
 			margin-top: 43px;
 			button {
-				color: #fff;
+				color: $white_color;
 				font-size: 21px;
-				border: solid 2px #48ad42;
-				background-color: #48ad42;
+				border: solid 2px $green_color;
+				background-color: $green_color;
 				border-radius: 52px;
 				padding: 17px 25px;
 				.arrow_wrap {

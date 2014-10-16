@@ -1,4 +1,4 @@
-@import url('elements.css');
+@import "elements";
 
 .company_info_block {
 	.cib_img_hold {
@@ -7,7 +7,7 @@
 		}
 	}
 	.cib_nav_hold {
-		background: #48ad42;
+		background: $green_color;
 		padding-top: 25px;
 		ul {
 			display: inline-block;
@@ -17,7 +17,7 @@
 			margin-right: 25px;
 			margin-bottom: 25px;
 			p {
-				color: #fff;
+				color: $white_color;
 			}
 			.cs_h {
 				font-size: 16px;
@@ -40,7 +40,7 @@
 		button {
 			span {
 				font-size: 16px;
-				color: #fff;
+				color: $white_color;
 				margin-right: 15px;
 			}
 		}

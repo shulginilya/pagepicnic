@@ -1,10 +1,9 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "colors";
 
 $image_root: "../images/";
 $fonts_root: "../fonts/";
-
-// @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 
 .clearfix:after {
 	visibility: hidden;
@@ -28,8 +27,8 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 12px;
-  background: #fff;
-  color: #5d6974;
+  background: $white_color;
+  color: $default_text_color;
   line-height: 1.3;
   overflow-x: hidden;
   overflow-y: auto;
@@ -37,7 +36,7 @@ body {
 	p, a, button, h1, h2, h3, h4, h5, h6, input, textarea, select, table td, table th, span, li, label, div {
     font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', sans-serif;
     font-size: 12px;
-    color: #5d6974;
+    color: $default_text_color;
     webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
@@ -49,7 +48,7 @@ body {
 
   a:hover {
   	text-decoration: none !important;
-  	color: #5d6974;
+  	color: $default_text_color;
   }
 
   input[type='text'], input[type='email'], input[type='password'] {
@@ -62,20 +61,20 @@ body {
   }
 
   input[type='text']:focus, input[type='text']:active, input[type='email']:focus, input[type='email']:active, input[type='password']:focus, input[type='password']:active, textarea.form-control:active, textarea.form-control:focus {
-  	border-color: #48ad42;
+  	border-color: $green_color;
 	  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(72, 173, 66, 0.6);
 	  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(72, 173, 66, 0.6);
   }
 
 	.form-control::-moz-placeholder {
-	  color: #c8d1d8;
+	  color: $placeholder_text_color;
 	  opacity: 1;
 	}
 	.form-control:-ms-input-placeholder {
-	  color: #c8d1d8;
+	  color: $placeholder_text_color;
 	}
 	.form-control::-webkit-input-placeholder {
-	  color: #c8d1d8;
+	  color: $placeholder_text_color;
 	}
 
 	.col_25 {
@@ -107,7 +106,7 @@ body {
 	}
 
 	.green_text {
-		color: #48ad42;
+		color: $green_color;
 	}
 
 	.boldy {
@@ -131,7 +130,7 @@ body {
 		right: 0px;
 		width: 260px;
 		height: 300px;
-		background: #000;
+		background: $black_color;
 		z-index: 100;
 		transition: right .25s ease-out;
 		-moz-transition: right .25s ease-out;
@@ -147,10 +146,10 @@ body {
 					font-size: 13px;
 					text-transform: uppercase;
 					font-weight: 500;
-					color: #666;
+					color: $six_color;
 				}
 				a:hover, a.active {
-					color: #fff;
+					color: $white_color;
 					text-decoration: none;
 				}
 			}
@@ -173,7 +172,7 @@ body {
 			margin-bottom: 10px;
 		}
 		.mob_get_started_btn:hover {
-			color: #5d6974;
+			color: $default_text_color;
 		}
 
 		.mob_close_inside {
@@ -217,6 +216,26 @@ body {
 	}
 
 	// ======== BUTTONS UI (START)
+	// .btn {
+	// 	background: transparent;
+	//   border: 2px solid $green_color;
+	//   color: $green_color;
+	//   font-size: 18px;
+	//   padding: 16px 30px;
+	// }
+	// .btn-sm {
+	//  	font-size: 15px;
+	// 	padding: 10px 20px;
+	// }
+	// .btn-lg {
+	//   font-size: 21px;
+	//   padding: 16px 252px;
+	// }
+	// .btn-primary {
+	//   background: $green_color;
+	//   color: $white_color;
+	// }
+
 	.btn-info-custom {
 		color: #2ba8d6;
 		border: solid 2px #2ba8d6;
@@ -225,7 +244,7 @@ body {
 	}
 	.btn-info-custom:hover, .btn-info-custom:active {
 		background-color: #2ba8d6;
-		color: #fff;
+		color: $white_color;
 		border: solid 2px #2ba8d6;
 	}
 	.btn-info-custom.middle_size {
@@ -238,19 +257,19 @@ body {
 	}
 
 	.btn-success-custom {
-		color: #48ad42;
-		border: solid 2px #48ad42;
+		color: $green_color;
+		border: solid 2px $green_color;
 		background-color: transparent;
 		border-radius: 30px;
 	}
 	.btn-success-custom.filled {
-		color: #fff;
-		background-color: #48ad42;
+		color: $white_color;
+		background-color: $green_color;
 	}
 	.btn-success-custom:hover, .btn-success-custom:active {
-		background-color: #48ad42;
-		color: #fff;
-		border: solid 2px #48ad42;
+		background-color: $green_color;
+		color: $white_color;
+		border: solid 2px $green_color;
 	}
 	.btn-success-custom.middle_size {
 		font-size: 16px;
@@ -269,7 +288,7 @@ body {
 	}
 	.btn-danger-custom:hover, .btn-danger-custom:active {
 		background-color: #f24985;
-		color: #fff;
+		color: $white_color;
 		border: solid 2px #f24985;
 	}
 	.btn-danger-custom.middle_size {
@@ -282,15 +301,15 @@ body {
 	}
 
 	.btn-default-custom {
-		color: #fff;
-		border: solid 2px #fff;
+		color: $white_color;
+		border: solid 2px $white_color;
 		background-color: transparent;
 		border-radius: 30px;
 	}
 	.btn-default-custom:hover, .btn-default-custom:active {
 		background-color: transparent;
-		color: #fff;
-		border: solid 2px #fff;
+		color: $white_color;
+		border: solid 2px $white_color;
 	}
 	.btn-default-custom.middle_size {
 		font-size: 16px;
@@ -324,14 +343,13 @@ body {
 		-o-transition: left .25s ease-out;
 
 		width: 100%;
-		// height: 80px;
 		padding-bottom: 22px;
-		background: #fff;
+		background: $white_color;
 		> .container {
 			padding-top: 14px;
 		}
 		.top_under_header {
-			background: #f4f4f4;
+			background: $top_under_header_color;
 			height: 0px;
 			overflow: hidden;
 			transition: height .25s ease-out;
@@ -345,14 +363,14 @@ body {
 					margin-bottom: 15px;
 					font-weight: 400;
 					font-size: 16px;
-					color: #575d64;
+					color: $tuh_nav_block_color;
 				}
 				ul {
 					margin-bottom: 10px;
 					li {
 						margin-bottom: 5px;
 						a {
-							color: #575d64;
+							color: $tuh_nav_block_color;
 							line-height: 24px;
 							font-size: 14px;
 							font-weight: 200;
@@ -375,8 +393,8 @@ body {
 				font-size: 24px;
 				font-weight: 300;
 				line-height: 20px;
-				color: #575d64;
-				text-shadow: 0 1px 0 #ffffff;
+				color: $tuh_nav_block_color;
+				text-shadow: 0 1px 0 $white_color;
 				opacity: 0.8;
 			}
 			.tuh_close:hover {
@@ -414,7 +432,7 @@ body {
 					margin-left: 35px;
 					a {
 						font-size: 16px;
-						color: #5d6974;
+						color: $default_text_color;
 						font-weight: 400;
 					}
 					a:hover {
@@ -432,7 +450,7 @@ body {
 				float: left;
 				a {
 					font-size: 16px;
-					color: #5d6974;
+					color: $default_text_color;
 					font-weight: 400;
 				}
 				a:hover {
@@ -442,9 +460,9 @@ body {
 
 				}
 				.signup_lnk {
-					color: #48ad42;
+					color: $green_color;
 					font-weight: 400;
-					border: solid 2px #48ad42;
+					border: solid 2px $green_color;
 					background-color: transparent;
 					border-radius: 36px;
 					padding-top: 15px;
@@ -454,8 +472,8 @@ body {
 					margin-top: -10px;
 				}
 				.signup_lnk:hover {
-					background-color: #48ad42;
-					color: #fff;
+					background-color: $green_color;
+					color: $white_color;
 				}
 			}
 		}
@@ -486,7 +504,7 @@ body {
 		}
 		.h {
 			font-size: 36px;
-			color: #222222;
+			color: $text_black_color;
 			text-align: center;
 			margin-bottom: 25px;
 		}
@@ -502,13 +520,13 @@ body {
 		}
 	}
 	.regular_content_block.bottom_border_line {
-		border-bottom: solid 1px #c8d1d8;
+		border-bottom: solid 1px $placeholder_text_color;
 	}
 
 	// ======== FOOTER SECTION UI (START) ======== //
 	.footer {
 		width: 100%;
-		background-color: #222222;
+		background-color: $text_black_color;
 		padding-top: 72px;
 		padding-bottom: 48px;
 		.mini_logo {
@@ -526,7 +544,7 @@ body {
 		}
 		.foot_head {
 			font-family: "Gotham Rounded SSm Medium", sans-serif;
-			color: #fff;
+			color: $white_color;
 			font-size: 21px;
 		}
 		.sub_footer_line {
@@ -537,7 +555,7 @@ body {
 				margin-bottom: 20px;
 				a {
 					font-size: 14px;
-					color: #48ad42;
+					color: $green_color;
 					line-height: 1.6em;
 				}
 				a:hover {
@@ -559,7 +577,7 @@ body {
 		.high_credit_rating {
 			> p {
 				font-family: "Gotham Rounded SSm Medium", sans-serif;
-				color: #fff;
+				color: $white_color;
 				font-size: 21px;
 				margin-bottom: 21px;
 			}
@@ -573,7 +591,7 @@ body {
 			margin-top: 40px;
 			> p {
 				font-family: "Gotham Rounded SSm Medium", sans-serif;
-				color: #fff;
+				color: $white_color;
 				font-size: 21px;
 				margin-bottom: 21px;
 			}

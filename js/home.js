@@ -12,7 +12,6 @@ var home_tweets_config = {
 };
 
 function handleTweets(tweets) {
-    console.log("tweets: ", tweets);
     var tweets_html = "";
     if(tweets.length > 0) {
       var per_page = 2;
@@ -27,11 +26,6 @@ function handleTweets(tweets) {
           tweets_html += "</div>";
         }
       }
-      // for(var i = 0; i < tweets.length; i++) {
-      //   var user_div = $("" + tweets[i]).filter('.user');
-      //   console.log("user_div: ", user_div.html());
-      //   tweets_html += "<div class='col-xs-6 col-sm-6 col-md-6'><div class='tweet_block'>" + tweets[i] + "</div></div>";
-      // }
     } else {
       tweets_html = "<div class='alert alert-danger'><p><strong>No any tweets available</strong></p></div>";
     }
