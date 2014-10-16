@@ -306,11 +306,15 @@ body {
 	// ======== BUTTONS UI (END)
 
 	// ======== HEADER SECTION UI (START) ======== //
+	.modal-backdrop {
+		z-index: 0;
+		display: none;
+	}
 	.header {
 		position: fixed;
 		top: 0px;
 		left: 0px;
-		z-index: 100;
+		z-index: 8;
 
 		transition: left .25s ease-out;
 		-moz-transition: left .25s ease-out;
