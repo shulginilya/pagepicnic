@@ -124,7 +124,8 @@ body {
 
 	.mobile_sidebar_menu {
 		display: none;
-		position: absolute;
+		// position: absolute;
+		position: fixed;
 		top: 0px;
 		// right: -260px;
 		right: 0px;
