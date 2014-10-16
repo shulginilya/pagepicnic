@@ -98,6 +98,9 @@
 	}
 	.templates_wrap {
 		margin-top: 66px;
+		.mobile_templates_wrap {
+			display: none;
+		}
 		.template_rline {
 			margin-bottom: 70px;
 			.template_hold {
@@ -382,6 +385,12 @@
 @media (max-width: 767px) {
 	.choose_templates_section {
 		.templates_wrap {
+			.mobile_templates_wrap {
+				display: block;
+			}
+			.desktop_templates_wrap {
+				display: none;
+			}
 			.template_rline {
 				.template_hold {
 					margin-bottom: 20px;
