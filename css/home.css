@@ -938,7 +938,7 @@ body.m_toggle {
 }
 /* line 173, ../sass/home.scss */
 .choose_templates_section .templates_wrap .template_rline .template_hold .template_hold_inside .hove_overlay {
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
