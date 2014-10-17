@@ -63,23 +63,39 @@
 			margin-right: 0;
 		}
 		.sim_block_contact {
-			.arrow_wrap {
-				background: url("../images/r_arrow_blue_18_12.png");
+			.btn {
+				.arrow_wrap {
+					background: url("../images/r_arrow_blue_18_12.png");
+				}
 			}
-		}
-		.sim_block_contact {
-			.arrow_wrap {
-				background: url("../images/r_arrow_blue_18_12.png");
+			.btn:hover, .btn:active {
+				.arrow_wrap {
+					background: url("../images/r_arrow_white_18_12.png");
+				}
 			}
 		}
 		.sim_block_know {
-			.arrow_wrap {
-				background: url("../images/r_arrow_green_18_12.png");
+			.btn {
+				.arrow_wrap {
+					background: url("../images/r_arrow_green_18_12.png");
+				}
+			}
+			.btn:hover, .btn:active {
+				.arrow_wrap {
+					background: url("../images/r_arrow_white_18_12.png");
+				}
 			}
 		}
 		.sim_block_feedback {
-			.arrow_wrap {
-				background: url("../images/r_arrow_purple_18_12.png");
+			.btn {
+				.arrow_wrap {
+					background: url("../images/r_arrow_purple_18_12.png");
+				}
+			}
+			.btn:hover, .btn:active {
+				.arrow_wrap {
+					background: url("../images/r_arrow_white_18_12.png");
+				}
 			}
 		}
 	}

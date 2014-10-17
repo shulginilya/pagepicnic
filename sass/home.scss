@@ -49,11 +49,33 @@
 	}
 }
 
+// .demo_screen_preview_section {
+// 	width: 100%;
+// 	img {
+// 		width: 100%;
+// 		display: block;
+// 	}
+// }
+
 .demo_screen_preview_section {
+	position: relative;
 	width: 100%;
-	img {
+	height: 562px;
+	background: url("../images/home_page_mac_icons.png") $green_color;
+	background-size: cover;
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	.image_holder {
+		position: absolute;
 		width: 100%;
-		display: block;
+		top: -35px;
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 1120px;
+		}
 	}
 }
 
@@ -102,7 +124,7 @@
 					border: solid 2px $placeholder_text_color;
 					border-radius: 2px;
 					.hove_overlay {
-						display: none;
+						display: block;
 						position: absolute;
 						top: 0;
 						left: 0;
@@ -116,11 +138,13 @@
 							margin-top: calc(50% - 32px);
 							a {
 								color: $green_color;
-								font-size: 18px;
+								// font-size: 18px;
+								font-size: 16px;
 								border: solid 2px $green_color;
 								background-color: transparent;
 								border-radius: 52px;
-								padding: 17px 31px;
+								// padding: 17px 31px;
+								padding: 17px 24px;
 							}
 							a:first-child {
 								margin-right: 20px;
@@ -375,6 +399,18 @@
 	}
 }
 
+
+@media all and (max-width: 991px) {
+	.demo_screen_preview_section {
+		.image_holder {
+			img {
+				width: 90%;
+			}
+		}
+	}
+}
+
+
 @media all and (max-width: 991px) {
 	.choose_templates_section {
 		.templates_wrap {
@@ -386,6 +422,9 @@
 								a {
 									font-size: 14px !important;
 									padding: 14px 15px !important;
+								}
+								a:first-child {
+									margin-right: 10px;
 								}
 							}
 						}
@@ -406,7 +445,8 @@
 	}
 }
 
-@media (max-width: 767px) {
+// @media (max-width: 767px) {
+@media (max-width: 804px) {
 	.choose_templates_section {
 		.templates_wrap {
 			.mobile_templates_wrap {
@@ -542,9 +582,9 @@
 		}
 	}
 
-	.demo_screen_preview_section {
-		display: none;
-	}
+	// .demo_screen_preview_section {
+	// 	display: none;
+	// }
 
 	.promotion_section {
 		.container {

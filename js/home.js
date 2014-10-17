@@ -1,3 +1,23 @@
+$(document).ready(function() {
+  $(window).bind("resize", function(e) {
+    demoPreviewBlockResizer();
+  });
+  function demoPreviewBlockResizer() {
+    if($(window).width() <= 1205) {
+      var img_height = $(".image_holder > img").height();
+      var dssh_height = $(".demo_screen_preview_section").height();
+      // var n_h = img_height - 60;
+      var n_h = img_height - 84;
+      $(".demo_screen_preview_section").css("height", n_h + "px");
+      // $(".demo_screen_preview_section > .image_holder").css("top", "-27px");
+    } else {
+      $(".demo_screen_preview_section").css("height", "562px");
+      // $(".demo_screen_preview_section > .image_holder").css("top", "-27px");
+    }
+  }
+  demoPreviewBlockResizer();
+});
+
 var home_tweets_config = {
   "id": '345690956013633536',
   "domId": '',

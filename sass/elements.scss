@@ -236,6 +236,38 @@ body {
 	//   color: $white_color;
 	// }
 
+	.btn {
+		background-color: transparent;
+		border: 2px solid $green_color;
+		color: $green_color;
+		padding: 16px 30px;
+		font-size: 18px;
+		border-radius: 30px;
+	}
+	.btn:hover, .btn:active {
+		background-color: $green_color;
+		color: $white_color;
+	}
+
+	.btn.blue_theme {
+		color: $blue_color;
+		border: solid 2px $blue_color;
+	}
+	.btn.blue_theme:hover, .btn.blue_theme:active {
+		background-color: $blue_color;
+		color: $white_color;
+	}
+
+	.btn.purple_theme {
+		color: $purple_color;
+		border: solid 2px $purple_color;
+	}
+	.btn.purple_theme:hover, .btn.purple_theme:active {
+		background-color: $purple_color;
+		color: $white_color;
+	}
+
+	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (START)
 	.btn-info-custom {
 		color: #2ba8d6;
 		border: solid 2px #2ba8d6;
@@ -319,6 +351,7 @@ body {
 		padding-right: 23px;
 		border-radius: 30px;
 	}
+	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (END)
 
 	.full_w {
 		width: 100%;
@@ -445,7 +478,7 @@ body {
 			}
 		}
 		.auth_nav {
-			margin-top: 23px;
+			margin-top: 31px;
 			li {
 				float: left;
 				a {
@@ -456,25 +489,26 @@ body {
 				a:hover {
 					text-decoration: none;
 				}
-				.login_lnk {
-
+				.login_lnk:hover {
+					cursor: pointer;
 				}
 				.signup_lnk {
 					color: $green_color;
 					font-weight: 400;
-					border: solid 2px $green_color;
-					background-color: transparent;
 					border-radius: 36px;
 					padding-top: 15px;
 					padding-bottom: 15px;
 					padding-left: 20px;
 					padding-right: 20px;
-					margin-top: -10px;
+					margin-top: -18px;
 				}
 				.signup_lnk:hover {
 					background-color: $green_color;
 					color: $white_color;
 				}
+			}
+			li:first-child {
+				margin-right: 12px;
 			}
 		}
 	}
