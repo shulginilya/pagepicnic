@@ -421,6 +421,9 @@
 					.template_hold_inside {
 						.hove_overlay {
 							.cnt {
+								a:first-child {
+									display: none;
+								}
 								a {
 									font-size: 18px !important;
 									padding: 17px 31px !important;
@@ -475,30 +478,6 @@
 		}
 	}
 } 
-
-@media all and (max-width: 568px) { 
-	.choose_templates_section {
-		.templates_wrap {
-			.template_rline {
-				.template_hold {
-					.template_hold_inside {
-						.hove_overlay {
-							.cnt {
-								a:first-child {
-									display: none;
-								}
-								// a {
-								// 	font-size: 14px !important;
-								// 	padding: 14px 15px !important;
-								// }
-							}
-						}
-					}	
-				}
-			}
-		}
-	}
-}
 
 @media all and (max-width: 400px) {
 	// .choose_templates_section {
