@@ -1,6 +1,6 @@
 $(function(){
-  	// $("#header").load("/partials/header.html"); // === for local
-  	$("#header").load("/pagepicnic/partials/header.html"); // === for net-faces
+  	$("#header").load("/partials/header.html"); // === for local
+  	// $("#header").load("/pagepicnic/partials/header.html"); // === for net-faces
 });
 
 function moreNavigationActivator(e) {

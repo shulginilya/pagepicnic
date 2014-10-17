@@ -16,6 +16,17 @@ $(document).ready(function() {
     }
   }
   demoPreviewBlockResizer();
+
+  $(".demo_screen_preview_section .play_btn_wrap .play_btn").bind("click", function(e) {
+    $("#demo_video_modal .demo_video_hold").html("<iframe src='//player.vimeo.com/video/88357260?autoplay=1' width='100%' height='406' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
+    $("#demo_video_modal").modal("show");
+  });
+
+  $('#demo_video_modal').on('hidden.bs.modal', function (e) {
+    $("#demo_video_modal .demo_video_hold").html("");
+  });
+
+
 });
 
 var home_tweets_config = {

@@ -67,6 +67,41 @@
 	background-repeat: no-repeat;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	.play_btn_wrap {
+		position: absolute;
+		width: 100%;
+		height: 80px;
+		z-index: 2;
+		top: 20px;
+		top: -webkit-calc(50% - 40px);
+		top: -moz-calc(50% - 40px);
+		top: calc(50% - 40px);
+		.play_btn {
+			position: relative;
+			cursor: pointer;
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0.4);
+			margin: 0 auto;
+			-moz-transition: background-color 0.6s ease 0s; -webkit-transition: background-color 0.6s ease 0s; -ms-transition: background-color 0.6s ease 0s; -o-transition: background-color 0.6s ease 0s;
+			.p_icon {
+				position: absolute;
+				color: $white_color;
+				top: 18px;
+				top: -webkit-calc(50% -18px);
+				top: -moz-calc(50% - 18px);
+				top: calc(50% - 18px);
+				left: 14px;
+				left: -webkit-calc(50% -12px);
+				left: -moz-calc(50% - 12px);
+				left: calc(50% - 12px);
+			}
+		}
+		.play_btn:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+	}
 	.image_holder {
 		position: absolute;
 		width: 100%;
@@ -75,6 +110,18 @@
 			display: block;
 			margin: 0 auto;
 			max-width: 1120px;
+		}
+	}
+}
+
+#demo_video_modal {
+	.modal-header {
+		padding: 15px;
+		border-bottom: none;
+		.close {
+			> span {
+				font-size: 1.2em;
+			}
 		}
 	}
 }
