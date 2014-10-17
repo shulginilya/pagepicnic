@@ -170,9 +170,11 @@ body {
 		}
 		.mob_get_started_btn {
 			margin-bottom: 10px;
+			padding: 8px 10px;
+			border-radius: 10px;
 		}
 		.mob_get_started_btn:hover {
-			color: $default_text_color;
+			color: $white_color;
 		}
 
 		.mob_close_inside {
@@ -248,12 +250,20 @@ body {
 		background-color: $green_color;
 		color: $white_color;
 	}
+	.btn.filled {
+		background-color: $green_color;
+		color: $white_color;
+	}
 
 	.btn.blue_theme {
 		color: $blue_color;
 		border: solid 2px $blue_color;
 	}
 	.btn.blue_theme:hover, .btn.blue_theme:active {
+		background-color: $blue_color;
+		color: $white_color;
+	}
+	.btn.blue_theme.filled {
 		background-color: $blue_color;
 		color: $white_color;
 	}
@@ -266,91 +276,95 @@ body {
 		background-color: $purple_color;
 		color: $white_color;
 	}
+	.btn.purple_theme.filled {
+		background-color: $purple_color;
+		color: $white_color;
+	}
 
 	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (START)
-	.btn-info-custom {
-		color: #2ba8d6;
-		border: solid 2px #2ba8d6;
-		background-color: transparent;
-		border-radius: 30px;
-	}
-	.btn-info-custom:hover, .btn-info-custom:active {
-		background-color: #2ba8d6;
-		color: $white_color;
-		border: solid 2px #2ba8d6;
-	}
-	.btn-info-custom.middle_size {
-		font-size: 16px;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		padding-left: 23px;
-		padding-right: 23px;
-		border-radius: 30px;
-	}
+	// .btn-info-custom {
+	// 	color: #2ba8d6;
+	// 	border: solid 2px #2ba8d6;
+	// 	background-color: transparent;
+	// 	border-radius: 30px;
+	// }
+	// .btn-info-custom:hover, .btn-info-custom:active {
+	// 	background-color: #2ba8d6;
+	// 	color: $white_color;
+	// 	border: solid 2px #2ba8d6;
+	// }
+	// .btn-info-custom.middle_size {
+	// 	font-size: 16px;
+	// 	padding-top: 14px;
+	// 	padding-bottom: 14px;
+	// 	padding-left: 23px;
+	// 	padding-right: 23px;
+	// 	border-radius: 30px;
+	// }
 
-	.btn-success-custom {
-		color: $green_color;
-		border: solid 2px $green_color;
-		background-color: transparent;
-		border-radius: 30px;
-	}
-	.btn-success-custom.filled {
-		color: $white_color;
-		background-color: $green_color;
-	}
-	.btn-success-custom:hover, .btn-success-custom:active {
-		background-color: $green_color;
-		color: $white_color;
-		border: solid 2px $green_color;
-	}
-	.btn-success-custom.middle_size {
-		font-size: 16px;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		padding-left: 23px;
-		padding-right: 23px;
-		border-radius: 30px;
-	}
+	// .btn-success-custom {
+	// 	color: $green_color;
+	// 	border: solid 2px $green_color;
+	// 	background-color: transparent;
+	// 	border-radius: 30px;
+	// }
+	// .btn-success-custom.filled {
+	// 	color: $white_color;
+	// 	background-color: $green_color;
+	// }
+	// .btn-success-custom:hover, .btn-success-custom:active {
+	// 	background-color: $green_color;
+	// 	color: $white_color;
+	// 	border: solid 2px $green_color;
+	// }
+	// .btn-success-custom.middle_size {
+	// 	font-size: 16px;
+	// 	padding-top: 14px;
+	// 	padding-bottom: 14px;
+	// 	padding-left: 23px;
+	// 	padding-right: 23px;
+	// 	border-radius: 30px;
+	// }
 
-	.btn-danger-custom {
-		color: #f24985;
-		border: solid 2px #f24985;
-		background-color: transparent;
-		border-radius: 30px;
-	}
-	.btn-danger-custom:hover, .btn-danger-custom:active {
-		background-color: #f24985;
-		color: $white_color;
-		border: solid 2px #f24985;
-	}
-	.btn-danger-custom.middle_size {
-		font-size: 16px;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		padding-left: 23px;
-		padding-right: 23px;
-		border-radius: 30px;
-	}
+	// .btn-danger-custom {
+	// 	color: #f24985;
+	// 	border: solid 2px #f24985;
+	// 	background-color: transparent;
+	// 	border-radius: 30px;
+	// }
+	// .btn-danger-custom:hover, .btn-danger-custom:active {
+	// 	background-color: #f24985;
+	// 	color: $white_color;
+	// 	border: solid 2px #f24985;
+	// }
+	// .btn-danger-custom.middle_size {
+	// 	font-size: 16px;
+	// 	padding-top: 14px;
+	// 	padding-bottom: 14px;
+	// 	padding-left: 23px;
+	// 	padding-right: 23px;
+	// 	border-radius: 30px;
+	// }
 
-	.btn-default-custom {
-		color: $white_color;
-		border: solid 2px $white_color;
-		background-color: transparent;
-		border-radius: 30px;
-	}
-	.btn-default-custom:hover, .btn-default-custom:active {
-		background-color: transparent;
-		color: $white_color;
-		border: solid 2px $white_color;
-	}
-	.btn-default-custom.middle_size {
-		font-size: 16px;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		padding-left: 23px;
-		padding-right: 23px;
-		border-radius: 30px;
-	}
+	// .btn-default-custom {
+	// 	color: $white_color;
+	// 	border: solid 2px $white_color;
+	// 	background-color: transparent;
+	// 	border-radius: 30px;
+	// }
+	// .btn-default-custom:hover, .btn-default-custom:active {
+	// 	background-color: transparent;
+	// 	color: $white_color;
+	// 	border: solid 2px $white_color;
+	// }
+	// .btn-default-custom.middle_size {
+	// 	font-size: 16px;
+	// 	padding-top: 14px;
+	// 	padding-bottom: 14px;
+	// 	padding-left: 23px;
+	// 	padding-right: 23px;
+	// 	border-radius: 30px;
+	// }
 	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (END)
 
 	.full_w {
