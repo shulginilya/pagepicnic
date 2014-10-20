@@ -5,15 +5,12 @@
     <title>About Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <script type="text/javascript" src="./js/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <?php include("./partials/head.html"); ?>
+
     <script type="text/javascript" src="./js/ajaxupload.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
     <script type="text/javascript" src="./js/about_us.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6853292/742966/css/fonts.css" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="./css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="./css/aboutus.css" media="screen" rel="stylesheet" type="text/css">
 
     <link rel="icon" type="image/png" href="favicon.png" />
@@ -22,11 +19,11 @@
 
 <body>
 
-    <div id='mobile_sidebar_menu' class='mobile_sidebar_menu'><script src="./js/mobile_sidebar_menu.js"></script></div>
+    <?php include("./partials/mobile_sidebar_menu.html"); ?>
 
     <div id='root'>
 
-      <div id='header' class='header'><script src="./js/header.js"></script></div>
+      <?php include("./partials/header.html"); ?>
 
       <!-- ====== CONTENT SECTION (START) ====== -->
       <div class='aboutus_headline_block regular_content_block'>
@@ -536,8 +533,7 @@
       </div>
 
       <!-- ====== CONTENT SECTION (END) ====== -->
-
-      <div id='footer' class='footer'><script src="./js/footer.js"></script></div>
+      <?php include("./partials/footer.html"); ?>
 
     </div>
     

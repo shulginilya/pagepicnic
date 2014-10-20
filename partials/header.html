@@ -1,92 +1,92 @@
-<div class='top_under_header'>
+<div id='header' class='header'>
+  <div class='top_under_header'>
+    <div class='container'>
+      <div class='row row_relative clearfix'>
+        <div class='col_20 tuh_nav_block'></div>
+        <div class='col_19 tuh_nav_block'>
+          <p>About</p>
+          <ul>
+            <li><a href="./aboutus.php">About us</a></li>
+            <li><a href="./aboutus.php#jobs">Jobs</a></li>
+            <li><a href="./aboutus.php#press">Press</a></li>
+            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#terms_of_service_modal">Terms of service</a></li>
+            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#cookies_modal">Cookies</a></li>
+          </ul>
+        </div>
+        <div class='col_20_or tuh_nav_block'>
+          <p>Help & Support</p>
+          <ul>
+            <li><a href="javascript:void(0)">Helpcenter</a></li>
+            <li><a href="./contact_us.php">Contact us</a></li>
+            <li><a href="javascript:void(0)">Feedback forum</a></li>
+          </ul>
+        </div>
+        <div class='col_25 tuh_nav_block'>
+          <p>Social</p>
+          <ul>
+            <li><a href="javascript:void(0)">Blog</a></li>
+            <li><a href="javascript:void(0)">Facebook</a></li>
+            <li><a href="javascript:void(0)">Twitter</a></li>
+          </ul>
+        </div>
+        <span class='fa fa-times tuh_close' onclick="moreNavigationActivator(this)"></span>
+      </div>
+    </div>
+  </div>
   <div class='container'>
-    <div class='row row_relative clearfix'>
-      <div class='col_20 tuh_nav_block'></div>
-      <div class='col_19 tuh_nav_block'>
-        <p>About</p>
-        <ul>
-          <li><a href="./aboutus.html">About us</a></li>
-          <li><a href="./aboutus.html#jobs">Jobs</a></li>
-          <li><a href="./aboutus.html#press">Press</a></li>
-          <li><a href="javascript:void(0)" data-toggle="modal" data-target="#terms_of_service_modal">Terms of service</a></li>
-          <li><a href="javascript:void(0)" data-toggle="modal" data-target="#cookies_modal">Cookies</a></li>
-        </ul>
+      <div class='row clearfix'>
+          <div class='logo pull-left'>
+              <a href="./home.php"><img src="./images/logo.png"></a>
+          </div>
+          <div class='head_nav pull-left'>
+              <ul class='clearfix'>
+                  <li><a href='./features.php'>Features</a></li>
+                  <li><a href="./pricing.php">Pricing</a></li>
+                  <li><a href="./templates.php">Templates</a></li>
+                  <li><a href="./customers.php">Customers</a></li>
+                  <li><a href="./support.php">Support</a></li>
+                  <li><a class='main_nav_more_lnk' href="javascript:void(0)" onclick="moreNavigationActivator(this)">More</a></li>
+              </ul>
+          </div>
+          <div class='auth_nav pull-right'>
+              <ul class='clearfix'>
+                  <li><a class='login_lnk'>Login</a></li>
+                  <li><a class='btn signup_lnk'>Sign up free</a></li>
+              </ul>
+          </div>
+          <div class='mob_nav_knob pull-right'>
+            <a href="javascript:void(0)" onclick="activateMobileMenu(this)"><span class='fa fa-bars'></span></a>
+          </div>
       </div>
-      <div class='col_20_or tuh_nav_block'>
-        <p>Help & Support</p>
-        <ul>
-          <li><a href="javascript:void(0)">Helpcenter</a></li>
-          <li><a href="./contact_us.html">Contact us</a></li>
-          <li><a href="javascript:void(0)">Feedback forum</a></li>
-        </ul>
-      </div>
-      <div class='col_25 tuh_nav_block'>
-        <p>Social</p>
-        <ul>
-          <li><a href="javascript:void(0)">Blog</a></li>
-          <li><a href="javascript:void(0)">Facebook</a></li>
-          <li><a href="javascript:void(0)">Twitter</a></li>
-        </ul>
-      </div>
-      <span class='fa fa-times tuh_close' onclick="moreNavigationActivator(this)"></span>
-    </div>
   </div>
-</div>
-<div class='container'>
-    <div class='row clearfix'>
-        <div class='logo pull-left'>
-            <a href="./home.html"><img src="./images/logo.png"></a>
-        </div>
-        <div class='head_nav pull-left'>
-            <ul class='clearfix'>
-                <li><a href='./features.html'>Features</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./templates.html">Templates</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./support.html">Support</a></li>
-                <li><a class='main_nav_more_lnk' href="javascript:void(0)" onclick="moreNavigationActivator(this)">More</a></li>
-            </ul>
-        </div>
-        <div class='auth_nav pull-right'>
-            <ul class='clearfix'>
-                <li><a class='login_lnk'>Login</a></li>
-                <li><a class='btn signup_lnk'>Sign up free</a></li>
-                <!-- <li><a class='btn btn-link login_lnk'>Login</a></li>
-                <li><a class='btn btn-success signup_lnk'>Sign up free</a></li> -->
-            </ul>
-        </div>
-        <div class='mob_nav_knob pull-right'>
-          <a href="javascript:void(0)" onclick="activateMobileMenu(this)"><span class='fa fa-bars'></span></a>
-        </div>
-    </div>
-</div>
 
-<!-- ===== MODALS (START) ===== -->
-<div class="modal fade" id="terms_of_service_modal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">Terms of service</h4>
-      </div>
-      <div class="modal-body">
-        <p>content to come</p>
+  <!-- ===== MODALS (START) ===== -->
+  <div class="modal fade" id="terms_of_service_modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title">Terms of service</h4>
+        </div>
+        <div class="modal-body">
+          <p>content to come</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal fade" id="cookies_modal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title">Cookies</h4>
-      </div>
-      <div class="modal-body">
-        <p>content to come</p>
+  <div class="modal fade" id="cookies_modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title">Cookies</h4>
+        </div>
+        <div class="modal-body">
+          <p>content to come</p>
+        </div>
       </div>
     </div>
   </div>
+  <!-- ===== MODALS (END)   ===== -->
 </div>
-<!-- ===== MODALS (END)   ===== -->

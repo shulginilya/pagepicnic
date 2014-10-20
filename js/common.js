@@ -1,6 +1,16 @@
-$(function(){
-  	$("#header").load("/partials/header.html"); // === for local
-  	// $("#header").load("/pagepicnic/partials/header.html"); // === for net-faces
+$(function() {
+
+  	$(window).scroll(function() {
+		$(".mobile_sidebar_menu").height($(document).height() + "px");
+		if(!$(".mobile_sidebar_menu").hasClass('m_toggle')) {
+			if($(this).scrollTop() > 12) {
+				$('.header').addClass('fixed');
+			} else {
+				$('.header').removeClass('fixed');
+			}
+		}
+	});
+
 });
 
 function moreNavigationActivator(e) {
