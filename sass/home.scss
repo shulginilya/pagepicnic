@@ -7,15 +7,8 @@
 			margin-right: 20px;
 		}
 		button {
-			color: $white_color;
-			border: solid 2px $green_color;
-			background-color: $green_color;
-			border-radius: 30px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			padding-left: 30px;
-			padding-right: 30px;
-			font-size: 21px;
 			.arrow_wrap {
 				display: inline-block;
 				vertical-align: middle;
@@ -48,14 +41,6 @@
 		}
 	}
 }
-
-// .demo_screen_preview_section {
-// 	width: 100%;
-// 	img {
-// 		width: 100%;
-// 		display: block;
-// 	}
-// }
 
 .demo_screen_preview_section {
 	position: relative;
@@ -183,22 +168,8 @@
 							margin-top: -webkit-calc(50% - 32px);
 							margin-top: -moz-calc(50% - 32px);
 							margin-top: calc(50% - 32px);
-							a {
-								color: $green_color;
-								// font-size: 18px;
-								font-size: 16px;
-								border: solid 2px $green_color;
-								background-color: transparent;
-								border-radius: 52px;
-								// padding: 17px 31px;
-								padding: 17px 24px;
-							}
 							a:first-child {
 								margin-right: 20px;
-							}
-							a:hover {
-								background-color: $green_color;
-								color: $white_color;
 							}
 						}
 					}
@@ -221,12 +192,6 @@
 	.cnt {
 		margin-top: 82px;
 		a {
-			color: $green_color;
-			font-size: 21px;
-			border: solid 2px $green_color;
-			background-color: transparent;
-			border-radius: 52px;
-			padding: 17px 25px;
 			.arrow_wrap {
 				display: inline-block;
 				vertical-align: middle;
@@ -237,8 +202,6 @@
 			}
 		}
 		a:hover {
-			background-color: $green_color;
-			color: $white_color;
 			.arrow_wrap {
 				background: url("../images/white_arrow_r.png");
 			}
@@ -275,12 +238,6 @@
 	.cnt {
 		margin-top: 60px;
 		a {
-			color: $green_color;
-			font-size: 21px;
-			border: solid 2px $green_color;
-			background-color: transparent;
-			border-radius: 34px;
-			padding: 17px 25px;
 			.arrow_wrap {
 				display: inline-block;
 				vertical-align: middle;
@@ -291,8 +248,6 @@
 			}
 		}
 		a:hover {
-			background-color: $green_color;
-			color: $white_color;
 			.arrow_wrap {
 				background: url("../images/white_arrow_r.png");
 			}
@@ -359,12 +314,6 @@
 	.cnt {
 		margin-top: 72px;
 		a {
-			color: $green_color;
-			font-size: 21px;
-			border: solid 2px $green_color;
-			background-color: transparent;
-			border-radius: 52px;
-			padding: 17px 25px;
 			.arrow_wrap {
 				display: inline-block;
 				vertical-align: middle;
@@ -375,8 +324,6 @@
 			}
 		}
 		a:hover {
-			background-color: $green_color;
-			color: $white_color;
 			.arrow_wrap {
 				background: url("../images/white_arrow_r.png");
 			}
@@ -393,12 +340,6 @@
 		.cnt {
 			margin-top: 43px;
 			button {
-				color: $white_color;
-				font-size: 21px;
-				border: solid 2px $green_color;
-				background-color: $green_color;
-				border-radius: 52px;
-				padding: 17px 25px;
 				.arrow_wrap {
 					display: inline-block;
 					vertical-align: middle;

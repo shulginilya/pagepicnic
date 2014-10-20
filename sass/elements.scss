@@ -218,26 +218,6 @@ body {
 	}
 
 	// ======== BUTTONS UI (START)
-	// .btn {
-	// 	background: transparent;
-	//   border: 2px solid $green_color;
-	//   color: $green_color;
-	//   font-size: 18px;
-	//   padding: 16px 30px;
-	// }
-	// .btn-sm {
-	//  	font-size: 15px;
-	// 	padding: 10px 20px;
-	// }
-	// .btn-lg {
-	//   font-size: 21px;
-	//   padding: 16px 252px;
-	// }
-	// .btn-primary {
-	//   background: $green_color;
-	//   color: $white_color;
-	// }
-
 	.btn {
 		background-color: transparent;
 		border: 2px solid $green_color;
@@ -245,6 +225,14 @@ body {
 		padding: 16px 30px;
 		font-size: 18px;
 		border-radius: 30px;
+	}
+	.btn-sm {
+		padding: 10px 20px;
+		font-size: 15px;
+	}
+	.btn-md {
+		padding: 17px 24px;
+		font-size: 16px;
 	}
 	.btn:hover, .btn:active {
 		background-color: $green_color;
@@ -280,93 +268,11 @@ body {
 		background-color: $purple_color;
 		color: $white_color;
 	}
+	// ======== BUTTONS UI (END)
 
-	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (START)
-	// .btn-info-custom {
-	// 	color: #2ba8d6;
-	// 	border: solid 2px #2ba8d6;
-	// 	background-color: transparent;
-	// 	border-radius: 30px;
-	// }
-	// .btn-info-custom:hover, .btn-info-custom:active {
-	// 	background-color: #2ba8d6;
-	// 	color: $white_color;
-	// 	border: solid 2px #2ba8d6;
-	// }
-	// .btn-info-custom.middle_size {
-	// 	font-size: 16px;
-	// 	padding-top: 14px;
-	// 	padding-bottom: 14px;
-	// 	padding-left: 23px;
-	// 	padding-right: 23px;
-	// 	border-radius: 30px;
-	// }
-
-	// .btn-success-custom {
-	// 	color: $green_color;
-	// 	border: solid 2px $green_color;
-	// 	background-color: transparent;
-	// 	border-radius: 30px;
-	// }
-	// .btn-success-custom.filled {
-	// 	color: $white_color;
-	// 	background-color: $green_color;
-	// }
-	// .btn-success-custom:hover, .btn-success-custom:active {
-	// 	background-color: $green_color;
-	// 	color: $white_color;
-	// 	border: solid 2px $green_color;
-	// }
-	// .btn-success-custom.middle_size {
-	// 	font-size: 16px;
-	// 	padding-top: 14px;
-	// 	padding-bottom: 14px;
-	// 	padding-left: 23px;
-	// 	padding-right: 23px;
-	// 	border-radius: 30px;
-	// }
-
-	// .btn-danger-custom {
-	// 	color: #f24985;
-	// 	border: solid 2px #f24985;
-	// 	background-color: transparent;
-	// 	border-radius: 30px;
-	// }
-	// .btn-danger-custom:hover, .btn-danger-custom:active {
-	// 	background-color: #f24985;
-	// 	color: $white_color;
-	// 	border: solid 2px #f24985;
-	// }
-	// .btn-danger-custom.middle_size {
-	// 	font-size: 16px;
-	// 	padding-top: 14px;
-	// 	padding-bottom: 14px;
-	// 	padding-left: 23px;
-	// 	padding-right: 23px;
-	// 	border-radius: 30px;
-	// }
-
-	// .btn-default-custom {
-	// 	color: $white_color;
-	// 	border: solid 2px $white_color;
-	// 	background-color: transparent;
-	// 	border-radius: 30px;
-	// }
-	// .btn-default-custom:hover, .btn-default-custom:active {
-	// 	background-color: transparent;
-	// 	color: $white_color;
-	// 	border: solid 2px $white_color;
-	// }
-	// .btn-default-custom.middle_size {
-	// 	font-size: 16px;
-	// 	padding-top: 14px;
-	// 	padding-bottom: 14px;
-	// 	padding-left: 23px;
-	// 	padding-right: 23px;
-	// 	border-radius: 30px;
-	// }
-	// ====== OLD (REMOVE IT OR COMMENT AFTER BUTTONS GLOBAL STYLING IMPLEMENTATION) (END)
-
+	.fs_21 {
+		font-size: 21px;
+	}
 	.full_w {
 		width: 100%;
 	}
@@ -638,7 +544,7 @@ body {
 		.social_response {
 			margin-top: 40px;
 			> p {
-				font-family: "Gotham Rounded SSm Medium", sans-serif;
+				// font-family: "Gotham Rounded SSm Medium", sans-serif;
 				color: $white_color;
 				font-size: 21px;
 				margin-bottom: 21px;
